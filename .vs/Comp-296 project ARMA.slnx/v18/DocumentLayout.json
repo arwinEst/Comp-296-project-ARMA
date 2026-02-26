@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\comp-269\\Comp-296 project ARMA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|c:\\comp-269\\comp-296 project arma\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|c:\\comp-269\\comp-296 project arma\\content\\file.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|solutionrelative:content\\file.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|c:\\comp-269\\comp-296 project arma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|c:\\comp-269\\comp-296 project arma\\screens\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|solutionrelative:screens\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|c:\\comp-269\\comp-296 project arma\\screens\\mainmenuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|solutionrelative:screens\\mainmenuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "File.spritefont",
+              "DocumentMoniker": "C:\\comp-269\\Comp-296 project ARMA\\Content\\File.spritefont",
+              "RelativeDocumentMoniker": "Content\\File.spritefont",
+              "ToolTip": "C:\\comp-269\\Comp-296 project ARMA\\Content\\File.spritefont",
+              "RelativeToolTip": "Content\\File.spritefont",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-25T21:39:44.681Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cde3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\comp-269\\Comp-296 project ARMA\\Game1.cs",
+              "RelativeDocumentMoniker": "Game1.cs",
+              "ToolTip": "C:\\comp-269\\Comp-296 project ARMA\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T19:12:33.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameScreen.cs",
+              "DocumentMoniker": "C:\\comp-269\\Comp-296 project ARMA\\Screens\\GameScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\GameScreen.cs",
+              "ToolTip": "C:\\comp-269\\Comp-296 project ARMA\\Screens\\GameScreen.cs",
+              "RelativeToolTip": "Screens\\GameScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T19:39:27.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainMenuScreen.cs",
+              "DocumentMoniker": "C:\\comp-269\\Comp-296 project ARMA\\Screens\\MainMenuScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\MainMenuScreen.cs",
+              "ToolTip": "C:\\comp-269\\Comp-296 project ARMA\\Screens\\MainMenuScreen.cs",
+              "RelativeToolTip": "Screens\\MainMenuScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T18:57:21.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\comp-269\\Comp-296 project ARMA\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\comp-269\\Comp-296 project ARMA\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T18:51:05.073Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
