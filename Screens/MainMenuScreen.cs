@@ -34,15 +34,9 @@ namespace Comp_296_project_ARMA.Screens
             _screenManager = screenManager;
             
         }
-        public MainMenuScreen(SpriteFont font, Texture2D background, ScreenManager screenManager)
-        {
-            _font = font;
-            _background = background;
-            _screenManager = screenManager;
-        }
 
         public override void Update(GameTime gameTime)
-    {
+        {
         _previousState = _currentState;
         _currentState = Keyboard.GetState();
 
@@ -60,13 +54,13 @@ namespace Comp_296_project_ARMA.Screens
         {
             SelectOption();
         }
-    }
+        }
     public void SelectOption()
     {
             switch (_selectedIndex)
             {
                 case 0: // Play - switch to song select screen
-                    _screenManager.SetScreen(new SongSelectionScreen(_font, _spriteBatch));
+                    _screenManager.SetScreen(new SongSelectionScreen(_font, _background, _spriteBatch, _screenManager));
                     break;
                 case 1: // Settings
                     break;
