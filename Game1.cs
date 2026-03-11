@@ -23,7 +23,7 @@ namespace Comp_296_project_ARMA
             _background = Content.Load<Texture2D>("background");
 
             _screenManager = new ScreenManager();
-            _screenManager.SetScreen(new MainMenuScreen(_font, _background, _screenManager));
+            _screenManager.SetScreen(new MainMenuScreen(_font, _background, _spriteBatch, _screenManager));
         }
 
         public Game1()
@@ -36,12 +36,15 @@ namespace Comp_296_project_ARMA
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            _graphics.PreferredBackBufferWidth = GraphicsDevice.DisplayMode.Width;
-            _graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height;
+            // Setup default resolution
+            _graphics.PreferredBackBufferWidth = 1920;
+            _graphics.PreferredBackBufferHeight = 1080;
+
+            // Runs game in full screen
             _graphics.IsFullScreen = true;
             _graphics.ApplyChanges();
-            inputManager = new InputManager();
             base.Initialize();
+            inputManager = new InputManager();
         }
 
         protected override void Update(GameTime gameTime)
