@@ -12,12 +12,16 @@ namespace Comp_296_project_ARMA.Screens
     public class SongSelectionScreen : GameScreen
     {
         private SpriteFont _font;
+        private Texture2D _background;
         private SpriteBatch _spriteBatch;
+        private ScreenManager _screenManager;
 
-        public SongSelectionScreen(SpriteFont font, SpriteBatch spriteBatch)
+        public SongSelectionScreen(SpriteFont font, Texture2D background, SpriteBatch spriteBatch, ScreenManager screenManager)
         {
             _font = font;
+            _background = background;
             _spriteBatch = spriteBatch;
+            _screenManager = screenManager;
 
         }
         //Placeholder songs
@@ -47,7 +51,7 @@ namespace Comp_296_project_ARMA.Screens
             {
                 _selectedIndex = Math.Min(_songs.Count - 1, _selectedIndex + 1);
             }
-            // Select option
+            // Select Song
             if (_currentState.IsKeyDown(Keys.Enter) && _previousState.IsKeyUp(Keys.Enter))
             {
                 SelectSong();
@@ -61,17 +65,30 @@ namespace Comp_296_project_ARMA.Screens
         {
             // Logic to start the game with the selected song
             // For example, you could switch to the gameplay screen and pass the selected song
+            switch (_selectedIndex)
+            {
+                case 0: // Song 1
+                    _screenManager.SetScreen(new GamePlayScreen(_font, _spriteBatch, _screenManager));
+                    break;
+                case 1: // Song 2
+                    break;
+                case 2: // Song 3
+                    break;
+            }
         }
 
         private void GoBack()
         {
             // Logic to return to the main menu
             // For example, you could switch back to the MainMenuScreen
+            _screenManager.SetScreen(new MainMenuScreen(_font, _background, _spriteBatch, _screenManager));
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
             // Draw the song selection UI here
+            spriteBatch.DrawString(_font, "Selected Index: " + _selectedIndex, new Vector2(100, 50), Color.Red);
+
             spriteBatch.DrawString(_font, "Song Select:", new Vector2(100, 100), Color.White);
 
             for (int i = 0; i < _songs.Count; i++)
