@@ -1,0 +1,14 @@
+{
+  "Title": "Trigger (Zekk Remix)",
+  "Artist": "Dustvoxx",
+  "AudioFile": "audio",
+  "BPM": 200,
+  "Offset":  48,
+  "Notes": [
+    {
+      "Lane": 0,
+      "HitTime": 48
+    }
+
+  ]
+}
