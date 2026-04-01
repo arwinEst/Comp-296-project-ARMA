@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Comp-296-project-ARMA-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|c:\\comp-296-project-arma-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|c:\\comp-296-project-arma-main\\comp-296 project arma.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|solutionrelative:comp-296 project arma.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|c:\\comp-296-project-arma-main\\screens\\songselectionscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|solutionrelative:screens\\songselectionscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|c:\\comp-296-project-arma-main\\screens\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|solutionrelative:screens\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|c:\\comp-296-project-arma-main\\screens\\gameplayscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|solutionrelative:screens\\gameplayscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|c:\\comp-296-project-arma-main\\screens\\mainmenuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EDEEB6-1959-5F42-F5C9-5EAB386AB1F8}|Comp-296 project ARMA.csproj|solutionrelative:screens\\mainmenuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Comp-296 project ARMA",
+              "DocumentMoniker": "C:\\Comp-296-project-ARMA-main\\Comp-296 project ARMA.csproj",
+              "RelativeDocumentMoniker": "Comp-296 project ARMA.csproj",
+              "ToolTip": "C:\\Comp-296-project-ARMA-main\\Comp-296 project ARMA.csproj",
+              "RelativeToolTip": "Comp-296 project ARMA.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-25T00:15:37.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Comp-296-project-ARMA-main\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Comp-296-project-ARMA-main\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T00:15:17.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameScreen.cs",
+              "DocumentMoniker": "C:\\Comp-296-project-ARMA-main\\Screens\\GameScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\GameScreen.cs",
+              "ToolTip": "C:\\Comp-296-project-ARMA-main\\Screens\\GameScreen.cs",
+              "RelativeToolTip": "Screens\\GameScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T16:05:17.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GamePlayScreen.cs",
+              "DocumentMoniker": "C:\\Comp-296-project-ARMA-main\\Screens\\GamePlayScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\GamePlayScreen.cs",
+              "ToolTip": "C:\\Comp-296-project-ARMA-main\\Screens\\GamePlayScreen.cs",
+              "RelativeToolTip": "Screens\\GamePlayScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T01:21:29.623Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "59995ae5-cd89-4281-a137-a7a5b34b47c8",
+        "Display": 0,
+        "X": 546,
+        "Y": 277,
+        "Width": 1918,
+        "Height": 1030,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SongSelectionScreen.cs",
+              "DocumentMoniker": "C:\\Comp-296-project-ARMA-main\\Screens\\SongSelectionScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\SongSelectionScreen.cs",
+              "ToolTip": "C:\\Comp-296-project-ARMA-main\\Screens\\SongSelectionScreen.cs",
+              "RelativeToolTip": "Screens\\SongSelectionScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T01:13:07.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainMenuScreen.cs",
+              "DocumentMoniker": "C:\\Comp-296-project-ARMA-main\\Screens\\MainMenuScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\MainMenuScreen.cs",
+              "ToolTip": "C:\\Comp-296-project-ARMA-main\\Screens\\MainMenuScreen.cs",
+              "RelativeToolTip": "Screens\\MainMenuScreen.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T00:39:11.001Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
