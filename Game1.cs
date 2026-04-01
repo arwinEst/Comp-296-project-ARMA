@@ -1,8 +1,10 @@
 ﻿
+using Comp_296_project_ARMA.Data;
 using Comp_296_project_ARMA.Screens;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 
 namespace Comp_296_project_ARMA
 {
@@ -15,6 +17,7 @@ namespace Comp_296_project_ARMA
         private ScreenManager _screenManager;
         private SpriteFont _font;
         private Texture2D _background;
+        private DatabaseManager _databaseManager;
 
         protected override void LoadContent()
         {
@@ -22,12 +25,17 @@ namespace Comp_296_project_ARMA
             _font = Content.Load<SpriteFont>("font");
             _background = Content.Load<Texture2D>("background");
 
+            // Initialize database
+            _databaseManager = new DatabaseManager();
+            _databaseManager.Initialize();
+
             _screenManager = new ScreenManager();
-            _screenManager.SetScreen(new MainMenuScreen(_font, _background, _spriteBatch, _screenManager));
+            _screenManager.SetScreen(new MainMenuScreen(_font, _background, _spriteBatch, _screenManager, GraphicsDevice));
         }
 
         public Game1()
         {
+            _screenManager = new();
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
@@ -63,10 +71,11 @@ namespace Comp_296_project_ARMA
             }
 
 
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-                Exit();
+            //if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
+                //Exit();
 
             // TODO: Add your update logic here
+            
 
             base.Update(gameTime);
         }
@@ -103,6 +112,8 @@ namespace Comp_296_project_ARMA
             _currentScreen?.Draw(spriteBatch);
         }
     }
+
+
     // Enum to represent game actions
     public enum GameAction
     {
@@ -146,4 +157,4 @@ namespace Comp_296_project_ARMA
         }
     }
 
-    }
+ }
