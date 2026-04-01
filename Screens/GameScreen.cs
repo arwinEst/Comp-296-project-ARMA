@@ -9,10 +9,12 @@ using static Microsoft.Xna.Framework.GraphicsDeviceManager;
 
 namespace Comp_296_project_ARMA.Screens
 {
-    public abstract class GameScreen
+    public interface GameScreen
     {
-     public abstract void Update(GameTime gameTime);
-     public abstract void Draw(SpriteBatch spriteBatch);
+        public void Update(GameTime gameTime);
+
+        public void Draw(SpriteBatch spriteBatch);
+
     }
 
    }
