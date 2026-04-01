@@ -15,13 +15,15 @@ namespace Comp_296_project_ARMA.Screens
         private Texture2D _background;
         private SpriteBatch _spriteBatch;
         private ScreenManager _screenManager;
+        private GraphicsDevice _graphicsDevice;
 
-        public SongSelectionScreen(SpriteFont font, Texture2D background, SpriteBatch spriteBatch, ScreenManager screenManager)
+        public SongSelectionScreen(SpriteFont font, Texture2D background, SpriteBatch spriteBatch, ScreenManager screenManager, GraphicsDevice graphicsDevice)
         {
             _font = font;
             _background = background;
             _spriteBatch = spriteBatch;
             _screenManager = screenManager;
+            _graphicsDevice = graphicsDevice;
 
         }
         //Placeholder songs
@@ -36,8 +38,18 @@ namespace Comp_296_project_ARMA.Screens
 
         private KeyboardState _currentState;
         private KeyboardState _previousState;
-        public override void Update(GameTime gameTime)
+
+        private bool _isFirstFrame = true;
+
+        public void Update(GameTime gameTime)
         {
+            if (_isFirstFrame)
+            {
+                _isFirstFrame = false;
+                _previousState = Keyboard.GetState();
+                _currentState = Keyboard.GetState();
+                return;
+            }
             // Handle song selection input and logic here
             _previousState = _currentState;
             _currentState = Keyboard.GetState();
@@ -68,7 +80,7 @@ namespace Comp_296_project_ARMA.Screens
             switch (_selectedIndex)
             {
                 case 0: // Song 1
-                    _screenManager.SetScreen(new GamePlayScreen(_font, _spriteBatch, _screenManager));
+                    _screenManager.SetScreen(new GamePlayScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice));
                     break;
                 case 1: // Song 2
                     break;
@@ -81,13 +93,14 @@ namespace Comp_296_project_ARMA.Screens
         {
             // Logic to return to the main menu
             // For example, you could switch back to the MainMenuScreen
-            _screenManager.SetScreen(new MainMenuScreen(_font, _background, _spriteBatch, _screenManager));
+            _screenManager.SetScreen(new MainMenuScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice));
+
         }
 
-        public override void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch)
         {
             // Draw the song selection UI here
-            spriteBatch.DrawString(_font, "Selected Index: " + _selectedIndex, new Vector2(100, 50), Color.Red);
+            spriteBatch.Draw(_background, Vector2.Zero, Color.White);
 
             spriteBatch.DrawString(_font, "Song Select:", new Vector2(100, 100), Color.White);
 
