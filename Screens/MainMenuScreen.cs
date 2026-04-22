@@ -7,68 +7,66 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Comp_296_project_ARMA.Screens
 { 
     public class MainMenuScreen : GameScreen
 {
-    private ScreenManager _screenManager;
-    private SpriteFont _font;
-    private Texture2D _background;
-    private SpriteBatch _spriteBatch;
+        private ScreenManager _screenManager;
+        private SpriteFont _font;
+        private Texture2D _background;
+        private SpriteBatch _spriteBatch;
+        private GraphicsDevice _graphicsDevice;
+        private int _selectedIndex = 0;
+        private KeyboardState _currentState;
+        private KeyboardState _previousState;
         private List<String> _menuItems = new List<string>
         {
             "Play",
             "Settings",
             "Exit"
         };
-    private int _selectedIndex = 0;
-    private KeyboardState _currentState;
-    private KeyboardState _previousState;
 
-    public MainMenuScreen(SpriteFont font, Texture2D background, SpriteBatch spriteBatch,
-        ScreenManager screenManager)
+        public MainMenuScreen(SpriteFont font, Texture2D background, SpriteBatch spriteBatch,
+        ScreenManager screenManager, GraphicsDevice graphicsDevice)
         {
             _font = font;
             _background = background;
             _spriteBatch = spriteBatch;
             _screenManager = screenManager;
-            
-        }
-        public MainMenuScreen(SpriteFont font, Texture2D background, ScreenManager screenManager)
-        {
-            _font = font;
-            _background = background;
-            _screenManager = screenManager;
+            _graphicsDevice = graphicsDevice;
         }
 
-        public override void Update(GameTime gameTime)
-    {
-        _previousState = _currentState;
-        _currentState = Keyboard.GetState();
+    
+        public void Update(GameTime gameTime)
+        {
+            _previousState = _currentState;
+            _currentState = Keyboard.GetState();
 
-        //Navigate menu
-        if (_currentState.IsKeyUp(Keys.Up) && !_previousState.IsKeyUp(Keys.Up))
-        {
-            _selectedIndex = Math.Max(0, _selectedIndex - 1);
-        }
-        if (_currentState.IsKeyDown(Keys.Down) && _previousState.IsKeyUp(Keys.Down))
-        {
-            _selectedIndex = Math.Min(_menuItems.Count - 1, _selectedIndex + 1);
-        }
-        // Select option
-        if (_currentState.IsKeyDown(Keys.Enter) && _previousState.IsKeyUp(Keys.Enter))
-        {
-            SelectOption();
-        }
-    }
+            //Navigate menu
+            if (_currentState.IsKeyUp(Keys.Up) && !_previousState.IsKeyUp(Keys.Up))
+            {
+                _selectedIndex = Math.Max(0, _selectedIndex - 1);
+            }
+            if (_currentState.IsKeyDown(Keys.Down) && _previousState.IsKeyUp(Keys.Down))
+            {
+                _selectedIndex = Math.Min(_menuItems.Count - 1, _selectedIndex + 1);
+            }
+            // Select option
+            if (_currentState.IsKeyDown(Keys.Enter) && _previousState.IsKeyUp(Keys.Enter))
+            {
+                SelectOption();
+            }
+        }   
     public void SelectOption()
     {
             switch (_selectedIndex)
             {
                 case 0: // Play - switch to song select screen
-                    _screenManager.SetScreen(new SongSelectionScreen(_font, _spriteBatch));
+                    _screenManager.SetScreen(new SongSelectionScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice));
                     break;
                 case 1: // Settings
+                    _screenManager.SetScreen(new OptionsScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice));
                     break;
                 case 2: // Exit game
                     System.Environment.Exit(0);
@@ -76,7 +74,7 @@ namespace Comp_296_project_ARMA.Screens
             }
     }
 
-    public override void Draw(SpriteBatch spriteBatch)
+    public void Draw(SpriteBatch spriteBatch)
     {
         //Draw background
         spriteBatch.Draw(_background, Vector2.Zero, Color.White);
