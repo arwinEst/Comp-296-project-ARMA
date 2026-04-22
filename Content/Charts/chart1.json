@@ -1,0 +1,9229 @@
+{
+  "Title": "Trigger (Zekk Remix)",
+  "Artist": "Dustvoxx",
+  "AudioFile": "audio",
+  "BPM": 200.0,
+  "Offset": 48,
+  "Notes": [
+    {
+      "Lane": 0,
+      "HitTime": 48
+    },
+    {
+      "Lane": 1,
+      "HitTime": 48
+    },
+    {
+      "Lane": 2,
+      "HitTime": 348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 1248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 1248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 1548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 1548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 1848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 1848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 2148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 2148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 2448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 2448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 2748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 2748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 3048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 3048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 3348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 3348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 3648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 3648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 3948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 3948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 4248,
+      "HoldEndTime": 4548,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 4248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 4548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 4698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 4848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 4848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 5148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 5148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 5448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 5448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 5748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 5748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 6048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 6048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 6348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 6348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 6648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 6648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 6948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 6948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 7248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 7248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 7548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 7548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 7848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 7848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 7923
+    },
+    {
+      "Lane": 3,
+      "HitTime": 7998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 8073
+    },
+    {
+      "Lane": 0,
+      "HitTime": 8148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 8148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 8448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 8448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 8448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 9048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 9198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 9348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 9498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 9573
+    },
+    {
+      "Lane": 0,
+      "HitTime": 9648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 9648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 9798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 9948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 9948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 10098,
+      "HoldEndTime": 10248,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 10248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 10248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 10398,
+      "HoldEndTime": 10548,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 10548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 10698
+    },
+    {
+      "Lane": 3,
+      "HitTime": 10848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 10848,
+      "HoldEndTime": 10998,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 10998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 11148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 11148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 11298,
+      "HoldEndTime": 11448,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 11448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 11448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 11598
+    },
+    {
+      "Lane": 0,
+      "HitTime": 11748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 11748,
+      "HoldEndTime": 11898,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 11898,
+      "HoldEndTime": 12048,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 12048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 12048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 12198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 12348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 12348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 12498,
+      "HoldEndTime": 12648,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 12648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 12648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 12798,
+      "HoldEndTime": 12948,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 12948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 12948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 13098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 13248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 13248,
+      "HoldEndTime": 13398,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 13398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 13548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 13548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 13698,
+      "HoldEndTime": 13848,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 13848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 13848,
+      "HoldEndTime": 14148,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 14148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 14298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 14448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 14448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 14748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 14748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 15048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 15048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 15348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 15348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 15573
+    },
+    {
+      "Lane": 1,
+      "HitTime": 15573
+    },
+    {
+      "Lane": 2,
+      "HitTime": 15648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 15648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 15948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 15948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 16098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 16248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 16248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 16398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 16548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 16548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 16698
+    },
+    {
+      "Lane": 3,
+      "HitTime": 16698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 16848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 16848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 16923
+    },
+    {
+      "Lane": 1,
+      "HitTime": 16998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 17073
+    },
+    {
+      "Lane": 3,
+      "HitTime": 17148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 17223
+    },
+    {
+      "Lane": 1,
+      "HitTime": 17298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 17373
+    },
+    {
+      "Lane": 3,
+      "HitTime": 17448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 17523
+    },
+    {
+      "Lane": 1,
+      "HitTime": 17598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 17673
+    },
+    {
+      "Lane": 3,
+      "HitTime": 17748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 17823
+    },
+    {
+      "Lane": 1,
+      "HitTime": 17898
+    },
+    {
+      "Lane": 2,
+      "HitTime": 17973
+    },
+    {
+      "Lane": 3,
+      "HitTime": 18048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 18048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 18123
+    },
+    {
+      "Lane": 2,
+      "HitTime": 18198
+    },
+    {
+      "Lane": 3,
+      "HitTime": 18348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 18498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 18648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 18648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 18798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 18948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 19098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 19248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 19248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 19398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 19398
+    },
+    {
+      "Lane": 1,
+      "HitTime": 19548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 19548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 19698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 19848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 19848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 19998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 20148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 20148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 20298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 20448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 20448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 20598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 20748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 20748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 20898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 21048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 21048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 21198
+    },
+    {
+      "Lane": 3,
+      "HitTime": 21348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 21348,
+      "HoldEndTime": 21498,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 21498,
+      "HoldEndTime": 21648,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 21648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 21648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 21798
+    },
+    {
+      "Lane": 0,
+      "HitTime": 21948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 21948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 22098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 22248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 22248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 22398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 22548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 22548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 22698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 22848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 22848,
+      "HoldEndTime": 22998,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 22998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 23148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 23148,
+      "HoldEndTime": 23298,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 23298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 23448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 23448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 23598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 23748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 23748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 23748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 24048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 24048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 24198,
+      "HoldEndTime": 24498,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 24498,
+      "HoldEndTime": 24648,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 24648,
+      "HoldEndTime": 24798,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 24798,
+      "HoldEndTime": 24948,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 24948,
+      "HoldEndTime": 25098,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 25098,
+      "HoldEndTime": 25248,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 25248,
+      "HoldEndTime": 25398,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 25398,
+      "HoldEndTime": 25698,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 25698,
+      "HoldEndTime": 25998,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 25998,
+      "HoldEndTime": 26148,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 26148,
+      "HoldEndTime": 26448,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 26448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 26448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 26598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 26748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 26748,
+      "HoldEndTime": 27048,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 27048,
+      "HoldEndTime": 27198,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 27198,
+      "HoldEndTime": 27348,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 27348,
+      "HoldEndTime": 27498,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 27498,
+      "HoldEndTime": 27798,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 27648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 27648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 27798,
+      "HoldEndTime": 27948,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 27948,
+      "HoldEndTime": 28098,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 28098,
+      "HoldEndTime": 28248,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 28248,
+      "HoldEndTime": 28848,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 28248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 28548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 28548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 28698
+    },
+    {
+      "Lane": 1,
+      "HitTime": 28773
+    },
+    {
+      "Lane": 0,
+      "HitTime": 28848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 28848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 28998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 28998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 29148,
+      "HoldEndTime": 29298,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 29148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 29298,
+      "HoldEndTime": 29448,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 29448,
+      "HoldEndTime": 29598,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 29598,
+      "HoldEndTime": 29748,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 29748,
+      "HoldEndTime": 30048,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 30048,
+      "HoldEndTime": 30198,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 30198,
+      "HoldEndTime": 30498,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 30498,
+      "HoldEndTime": 30648,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 30648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 30648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 30798
+    },
+    {
+      "Lane": 3,
+      "HitTime": 30948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 30948,
+      "HoldEndTime": 31098,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 31098,
+      "HoldEndTime": 31248,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 31248,
+      "HoldEndTime": 31548,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 31548,
+      "HoldEndTime": 31698,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 31698,
+      "HoldEndTime": 31848,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 31848,
+      "HoldEndTime": 31998,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 31998,
+      "HoldEndTime": 32148,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 32148,
+      "HoldEndTime": 32298,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 32298,
+      "HoldEndTime": 32448,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 32448,
+      "HoldEndTime": 32598,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 32598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 32673
+    },
+    {
+      "Lane": 0,
+      "HitTime": 32748,
+      "HoldEndTime": 32898,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 32898,
+      "HoldEndTime": 33048,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 33048,
+      "HoldEndTime": 33348,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 33048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 33198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 33348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 33348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 33648,
+      "HoldEndTime": 33948,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 33648,
+      "HoldEndTime": 33948,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 33948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 34098
+    },
+    {
+      "Lane": 2,
+      "HitTime": 34248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 34248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 34398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 34548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 34548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 34698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 34848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 34998
+    },
+    {
+      "Lane": 0,
+      "HitTime": 34998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 35148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 35298
+    },
+    {
+      "Lane": 1,
+      "HitTime": 35448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 35448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 35598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 35748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 35748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 35898
+    },
+    {
+      "Lane": 2,
+      "HitTime": 36048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 36048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 36198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 36273
+    },
+    {
+      "Lane": 3,
+      "HitTime": 36273
+    },
+    {
+      "Lane": 2,
+      "HitTime": 36423
+    },
+    {
+      "Lane": 1,
+      "HitTime": 36498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 36498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 36648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 36648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 36798
+    },
+    {
+      "Lane": 0,
+      "HitTime": 36948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 36948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 37098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 37248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 37248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 37248,
+      "HoldEndTime": 37398,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 37398,
+      "HoldEndTime": 37548,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 37548,
+      "HoldEndTime": 37698,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 37698,
+      "HoldEndTime": 37848,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 37848,
+      "HoldEndTime": 38448,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 38448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 38448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 38448,
+      "HoldEndTime": 42048,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 38748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 39348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 39948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 40548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 41148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 41748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 42048,
+      "HoldEndTime": 45648,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 42348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 42948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 43548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 44148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 44748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 45348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 45648,
+      "HoldEndTime": 46848,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 45948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 46548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 46848,
+      "HoldEndTime": 48048,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 47148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 47748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 48048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 48048,
+      "HoldEndTime": 48198,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 48198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 48348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 48498,
+      "HoldEndTime": 48648,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 48648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 48798,
+      "HoldEndTime": 48948,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 48948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 49098
+    },
+    {
+      "Lane": 3,
+      "HitTime": 49248,
+      "HoldEndTime": 49398,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 49398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 49548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 49698,
+      "HoldEndTime": 49848,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 49848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 49998
+    },
+    {
+      "Lane": 0,
+      "HitTime": 50148,
+      "HoldEndTime": 50298,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 50298,
+      "HoldEndTime": 50448,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 50448,
+      "HoldEndTime": 50598,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 50598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 50748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 50898,
+      "HoldEndTime": 51048,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 51048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 51198,
+      "HoldEndTime": 51348,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 51348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 51498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 51648,
+      "HoldEndTime": 51798,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 51798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 51948,
+      "HoldEndTime": 52098,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 52098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 52248,
+      "HoldEndTime": 52398,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 52398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 52548,
+      "HoldEndTime": 52698,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 52698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 52848,
+      "HoldEndTime": 52998,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 52998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 53148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 53298,
+      "HoldEndTime": 53448,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 53448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 53598,
+      "HoldEndTime": 53748,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 53748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 53898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 54048,
+      "HoldEndTime": 54198,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 54198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 54348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 54498,
+      "HoldEndTime": 54648,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 54648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 54798
+    },
+    {
+      "Lane": 0,
+      "HitTime": 54948,
+      "HoldEndTime": 55098,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 55098,
+      "HoldEndTime": 55248,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 55248,
+      "HoldEndTime": 55398,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 55398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 55548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 55698,
+      "HoldEndTime": 55848,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 55848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 55998,
+      "HoldEndTime": 56148,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 56148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 56298,
+      "HoldEndTime": 56598,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 56448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 56448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 56598,
+      "HoldEndTime": 56748,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 56748,
+      "HoldEndTime": 56898,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 56898,
+      "HoldEndTime": 57048,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 57048,
+      "HoldEndTime": 57648,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 57648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 57648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 57948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 57948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 58248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 58248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 58548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 58548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 58848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 58848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 59148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 59148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 59448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 59448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 59748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 59748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 60048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 60048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 60348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 60348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 60648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 60648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 60948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 60948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 61248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 61248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 61548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 61548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 61848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 61848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 62148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 62148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 62298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 62448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 62448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 62748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 63048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 63048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 63348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 63498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 63648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 63648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 63948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 64248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 64248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 64398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 64548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 64698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 64848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 64848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 64998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 65148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 65298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 65448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 65448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 65598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 65748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 65898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 66048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 66048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 66198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 66348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 66348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 66498
+    },
+    {
+      "Lane": 3,
+      "HitTime": 66648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 66723
+    },
+    {
+      "Lane": 1,
+      "HitTime": 66798
+    },
+    {
+      "Lane": 0,
+      "HitTime": 66948,
+      "HoldEndTime": 67248,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 67248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 67248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 67398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 67548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 67548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 67698
+    },
+    {
+      "Lane": 1,
+      "HitTime": 67848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 67848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 67998
+    },
+    {
+      "Lane": 0,
+      "HitTime": 68148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 68148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 68298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 68448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 68448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 68598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 68748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 68748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 68898
+    },
+    {
+      "Lane": 2,
+      "HitTime": 69048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 69048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 69198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 69348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 69348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 69498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 69648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 69648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 69798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 69948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 69948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 70098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 70248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 70248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 70398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 70548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 70548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 70698
+    },
+    {
+      "Lane": 1,
+      "HitTime": 70848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 70848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 70998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 71148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 71148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 71298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 71448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 71448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 71598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 71748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 71748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 71898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 72048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 72048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 72198
+    },
+    {
+      "Lane": 3,
+      "HitTime": 72198
+    },
+    {
+      "Lane": 1,
+      "HitTime": 72348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 72348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 72498
+    },
+    {
+      "Lane": 3,
+      "HitTime": 72648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 72648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 72798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 72798
+    },
+    {
+      "Lane": 3,
+      "HitTime": 72948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 72948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 73098
+    },
+    {
+      "Lane": 2,
+      "HitTime": 73248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 73248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 73323
+    },
+    {
+      "Lane": 1,
+      "HitTime": 73398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 73473
+    },
+    {
+      "Lane": 3,
+      "HitTime": 73548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 73623
+    },
+    {
+      "Lane": 0,
+      "HitTime": 73698
+    },
+    {
+      "Lane": 1,
+      "HitTime": 73773
+    },
+    {
+      "Lane": 2,
+      "HitTime": 73848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 73923
+    },
+    {
+      "Lane": 0,
+      "HitTime": 73998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 74073
+    },
+    {
+      "Lane": 3,
+      "HitTime": 74148,
+      "HoldEndTime": 74298,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 74223
+    },
+    {
+      "Lane": 0,
+      "HitTime": 74298,
+      "HoldEndTime": 74448,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 74373
+    },
+    {
+      "Lane": 2,
+      "HitTime": 74448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 74448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 75648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 75648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 75798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 75873
+    },
+    {
+      "Lane": 0,
+      "HitTime": 75948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 76023
+    },
+    {
+      "Lane": 2,
+      "HitTime": 76098
+    },
+    {
+      "Lane": 3,
+      "HitTime": 76248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 76398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 76548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 76698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 76848,
+      "HoldEndTime": 77148,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 76848,
+      "HoldEndTime": 77148,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 77148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 77298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 77448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 77448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 77598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 77748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 77748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 77898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 78048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 78198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 78198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 78348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 78498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 78648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 78648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 78798
+    },
+    {
+      "Lane": 3,
+      "HitTime": 78948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 78948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 79098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 79248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 79248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 79398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 79548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 79698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 79848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 79848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 79998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 80148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 80148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 80298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 80448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 80598
+    },
+    {
+      "Lane": 3,
+      "HitTime": 80598,
+      "HoldEndTime": 81048,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 80748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 80898
+    },
+    {
+      "Lane": 0,
+      "HitTime": 81048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 81048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 81123
+    },
+    {
+      "Lane": 3,
+      "HitTime": 81198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 81273
+    },
+    {
+      "Lane": 1,
+      "HitTime": 81348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 81348,
+      "HoldEndTime": 81648,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 81573
+    },
+    {
+      "Lane": 2,
+      "HitTime": 81648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 81798
+    },
+    {
+      "Lane": 3,
+      "HitTime": 81948,
+      "HoldEndTime": 82098,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 82098,
+      "HoldEndTime": 82248,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 82248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 82248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 82398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 82548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 82548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 82698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 82848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 82998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 82998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 83148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 83298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 83448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 83448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 83598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 83748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 83748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 83898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 84048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 84048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 84198
+    },
+    {
+      "Lane": 3,
+      "HitTime": 84348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 84423
+    },
+    {
+      "Lane": 1,
+      "HitTime": 84498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 84498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 84648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 84648,
+      "HoldEndTime": 84948,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 84798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 84948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 84948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 85098
+    },
+    {
+      "Lane": 3,
+      "HitTime": 85098
+    },
+    {
+      "Lane": 2,
+      "HitTime": 85248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 85248,
+      "HoldEndTime": 85548,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 85548,
+      "HoldEndTime": 85698,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 85698,
+      "HoldEndTime": 85848,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 85848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 85923
+    },
+    {
+      "Lane": 3,
+      "HitTime": 85998
+    },
+    {
+      "Lane": 0,
+      "HitTime": 86073
+    },
+    {
+      "Lane": 1,
+      "HitTime": 86148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 86148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 86298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 86373
+    },
+    {
+      "Lane": 1,
+      "HitTime": 86448,
+      "HoldEndTime": 86748,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 86448,
+      "HoldEndTime": 86748,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 86748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 86898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 87048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 87048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 87198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 87348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 87348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 87498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 87648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 87798
+    },
+    {
+      "Lane": 0,
+      "HitTime": 87798
+    },
+    {
+      "Lane": 3,
+      "HitTime": 87948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 88098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 88248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 88248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 88398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 88548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 88548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 88698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 88848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 88848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 88998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 89148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 89298
+    },
+    {
+      "Lane": 3,
+      "HitTime": 89448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 89448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 89598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 89748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 89748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 89898
+    },
+    {
+      "Lane": 0,
+      "HitTime": 90048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 90198
+    },
+    {
+      "Lane": 3,
+      "HitTime": 90198
+    },
+    {
+      "Lane": 1,
+      "HitTime": 90348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 90498
+    },
+    {
+      "Lane": 3,
+      "HitTime": 90498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 90648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 90723
+    },
+    {
+      "Lane": 0,
+      "HitTime": 90798
+    },
+    {
+      "Lane": 3,
+      "HitTime": 90873
+    },
+    {
+      "Lane": 2,
+      "HitTime": 90948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 90948,
+      "HoldEndTime": 91248,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 91248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 91248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 91398
+    },
+    {
+      "Lane": 1,
+      "HitTime": 91548,
+      "HoldEndTime": 91698,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 91698,
+      "HoldEndTime": 91848,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 91848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 91848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 91998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 92148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 92148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 92298
+    },
+    {
+      "Lane": 1,
+      "HitTime": 92448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 92598
+    },
+    {
+      "Lane": 3,
+      "HitTime": 92598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 92673
+    },
+    {
+      "Lane": 1,
+      "HitTime": 92748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 92898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 93048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 93048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 93198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 93348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 93348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 93423
+    },
+    {
+      "Lane": 1,
+      "HitTime": 93498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 93573
+    },
+    {
+      "Lane": 0,
+      "HitTime": 93648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 93648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 93798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 93873
+    },
+    {
+      "Lane": 3,
+      "HitTime": 93873
+    },
+    {
+      "Lane": 0,
+      "HitTime": 94023
+    },
+    {
+      "Lane": 1,
+      "HitTime": 94098
+    },
+    {
+      "Lane": 2,
+      "HitTime": 94098
+    },
+    {
+      "Lane": 3,
+      "HitTime": 94248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 94248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 94323
+    },
+    {
+      "Lane": 1,
+      "HitTime": 94398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 94473
+    },
+    {
+      "Lane": 1,
+      "HitTime": 94548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 94548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 94698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 94848,
+      "HoldEndTime": 95148,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 94848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 95148,
+      "HoldEndTime": 95298,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 95298,
+      "HoldEndTime": 95448,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 95448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 95523
+    },
+    {
+      "Lane": 0,
+      "HitTime": 95598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 95673
+    },
+    {
+      "Lane": 2,
+      "HitTime": 95748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 95748,
+      "HoldEndTime": 96048,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 96048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 96123
+    },
+    {
+      "Lane": 3,
+      "HitTime": 96198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 96348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 96348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 96498
+    },
+    {
+      "Lane": 3,
+      "HitTime": 96498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 96648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 96648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 96723
+    },
+    {
+      "Lane": 2,
+      "HitTime": 96798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 96873
+    },
+    {
+      "Lane": 0,
+      "HitTime": 96948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 97023
+    },
+    {
+      "Lane": 2,
+      "HitTime": 97098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 97173
+    },
+    {
+      "Lane": 1,
+      "HitTime": 97248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 97323
+    },
+    {
+      "Lane": 3,
+      "HitTime": 97398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 97473
+    },
+    {
+      "Lane": 1,
+      "HitTime": 97548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 97623
+    },
+    {
+      "Lane": 2,
+      "HitTime": 97698
+    },
+    {
+      "Lane": 1,
+      "HitTime": 97773
+    },
+    {
+      "Lane": 3,
+      "HitTime": 97848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 97923
+    },
+    {
+      "Lane": 2,
+      "HitTime": 97998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 98073
+    },
+    {
+      "Lane": 3,
+      "HitTime": 98148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 98223
+    },
+    {
+      "Lane": 1,
+      "HitTime": 98298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 98373
+    },
+    {
+      "Lane": 3,
+      "HitTime": 98448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 98523
+    },
+    {
+      "Lane": 3,
+      "HitTime": 98598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 98673
+    },
+    {
+      "Lane": 1,
+      "HitTime": 98748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 98898
+    },
+    {
+      "Lane": 2,
+      "HitTime": 98973
+    },
+    {
+      "Lane": 0,
+      "HitTime": 99048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 99123
+    },
+    {
+      "Lane": 2,
+      "HitTime": 99198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 99348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 99423
+    },
+    {
+      "Lane": 3,
+      "HitTime": 99498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 99573
+    },
+    {
+      "Lane": 1,
+      "HitTime": 99648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 99798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 99873
+    },
+    {
+      "Lane": 0,
+      "HitTime": 99948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 100023
+    },
+    {
+      "Lane": 2,
+      "HitTime": 100098
+    },
+    {
+      "Lane": 3,
+      "HitTime": 100173
+    },
+    {
+      "Lane": 1,
+      "HitTime": 100248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 100248,
+      "HoldEndTime": 100548,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 100548,
+      "HoldEndTime": 100848,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 100848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 100848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 101073
+    },
+    {
+      "Lane": 3,
+      "HitTime": 101073
+    },
+    {
+      "Lane": 1,
+      "HitTime": 101298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 101298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 101448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 101448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 101523
+    },
+    {
+      "Lane": 0,
+      "HitTime": 101598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 101673
+    },
+    {
+      "Lane": 1,
+      "HitTime": 101748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 101823
+    },
+    {
+      "Lane": 2,
+      "HitTime": 101898
+    },
+    {
+      "Lane": 0,
+      "HitTime": 101973
+    },
+    {
+      "Lane": 1,
+      "HitTime": 102048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 102123
+    },
+    {
+      "Lane": 2,
+      "HitTime": 102198
+    },
+    {
+      "Lane": 1,
+      "HitTime": 102273
+    },
+    {
+      "Lane": 0,
+      "HitTime": 102348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 102423
+    },
+    {
+      "Lane": 2,
+      "HitTime": 102498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 102573
+    },
+    {
+      "Lane": 0,
+      "HitTime": 102648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 102723
+    },
+    {
+      "Lane": 1,
+      "HitTime": 102798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 102873
+    },
+    {
+      "Lane": 3,
+      "HitTime": 102948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 103023
+    },
+    {
+      "Lane": 1,
+      "HitTime": 103098
+    },
+    {
+      "Lane": 2,
+      "HitTime": 103173
+    },
+    {
+      "Lane": 3,
+      "HitTime": 103248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 103248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 103398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 103548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 103548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 103623
+    },
+    {
+      "Lane": 0,
+      "HitTime": 103698
+    },
+    {
+      "Lane": 3,
+      "HitTime": 103848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 103998
+    },
+    {
+      "Lane": 0,
+      "HitTime": 103998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 104073
+    },
+    {
+      "Lane": 3,
+      "HitTime": 104148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 104298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 104298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 104448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 104448,
+      "HoldEndTime": 105048,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 105048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 105198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 105348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 105348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 105498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 105648,
+      "HoldEndTime": 105948,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 105648,
+      "HoldEndTime": 105948,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 105948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 106023
+    },
+    {
+      "Lane": 3,
+      "HitTime": 106098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 106173
+    },
+    {
+      "Lane": 2,
+      "HitTime": 106248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 106323
+    },
+    {
+      "Lane": 0,
+      "HitTime": 106398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 106473
+    },
+    {
+      "Lane": 2,
+      "HitTime": 106548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 106623
+    },
+    {
+      "Lane": 2,
+      "HitTime": 106698
+    },
+    {
+      "Lane": 3,
+      "HitTime": 106773
+    },
+    {
+      "Lane": 0,
+      "HitTime": 106848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 106923
+    },
+    {
+      "Lane": 2,
+      "HitTime": 106998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 107073
+    },
+    {
+      "Lane": 1,
+      "HitTime": 107148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 107223
+    },
+    {
+      "Lane": 2,
+      "HitTime": 107298
+    },
+    {
+      "Lane": 3,
+      "HitTime": 107373
+    },
+    {
+      "Lane": 1,
+      "HitTime": 107448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 107523
+    },
+    {
+      "Lane": 0,
+      "HitTime": 107598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 107673
+    },
+    {
+      "Lane": 3,
+      "HitTime": 107748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 107823
+    },
+    {
+      "Lane": 1,
+      "HitTime": 107898
+    },
+    {
+      "Lane": 0,
+      "HitTime": 107973
+    },
+    {
+      "Lane": 3,
+      "HitTime": 108048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 108123
+    },
+    {
+      "Lane": 0,
+      "HitTime": 108198
+    },
+    {
+      "Lane": 1,
+      "HitTime": 108273
+    },
+    {
+      "Lane": 2,
+      "HitTime": 108348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 108423
+    },
+    {
+      "Lane": 1,
+      "HitTime": 108498
+    },
+    {
+      "Lane": 3,
+      "HitTime": 108573
+    },
+    {
+      "Lane": 2,
+      "HitTime": 108648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 108723
+    },
+    {
+      "Lane": 1,
+      "HitTime": 108798
+    },
+    {
+      "Lane": 3,
+      "HitTime": 108873
+    },
+    {
+      "Lane": 2,
+      "HitTime": 108948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 109023
+    },
+    {
+      "Lane": 3,
+      "HitTime": 109098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 109173
+    },
+    {
+      "Lane": 2,
+      "HitTime": 109248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 109398
+    },
+    {
+      "Lane": 1,
+      "HitTime": 109473
+    },
+    {
+      "Lane": 3,
+      "HitTime": 109548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 109623
+    },
+    {
+      "Lane": 1,
+      "HitTime": 109698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 109773
+    },
+    {
+      "Lane": 2,
+      "HitTime": 109848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 109848,
+      "HoldEndTime": 110148,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 110148,
+      "HoldEndTime": 110448,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 110448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 110448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 110673
+    },
+    {
+      "Lane": 0,
+      "HitTime": 110673
+    },
+    {
+      "Lane": 2,
+      "HitTime": 110898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 110898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 111048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 111048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 111123
+    },
+    {
+      "Lane": 3,
+      "HitTime": 111198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 111273
+    },
+    {
+      "Lane": 2,
+      "HitTime": 111348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 111423
+    },
+    {
+      "Lane": 0,
+      "HitTime": 111498
+    },
+    {
+      "Lane": 3,
+      "HitTime": 111573
+    },
+    {
+      "Lane": 2,
+      "HitTime": 111648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 111723
+    },
+    {
+      "Lane": 0,
+      "HitTime": 111798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 111873
+    },
+    {
+      "Lane": 2,
+      "HitTime": 111948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 112023
+    },
+    {
+      "Lane": 0,
+      "HitTime": 112098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 112173
+    },
+    {
+      "Lane": 3,
+      "HitTime": 112248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 112323
+    },
+    {
+      "Lane": 1,
+      "HitTime": 112398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 112473
+    },
+    {
+      "Lane": 2,
+      "HitTime": 112548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 112623
+    },
+    {
+      "Lane": 1,
+      "HitTime": 112698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 112773
+    },
+    {
+      "Lane": 0,
+      "HitTime": 112848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 112848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 112998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 112998
+    },
+    {
+      "Lane": 0,
+      "HitTime": 113148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 113223
+    },
+    {
+      "Lane": 3,
+      "HitTime": 113298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 113373
+    },
+    {
+      "Lane": 0,
+      "HitTime": 113448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 113523
+    },
+    {
+      "Lane": 3,
+      "HitTime": 113598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 113673
+    },
+    {
+      "Lane": 0,
+      "HitTime": 113748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 113823
+    },
+    {
+      "Lane": 3,
+      "HitTime": 113898
+    },
+    {
+      "Lane": 2,
+      "HitTime": 113973
+    },
+    {
+      "Lane": 1,
+      "HitTime": 114048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 114048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 114235
+    },
+    {
+      "Lane": 2,
+      "HitTime": 114235
+    },
+    {
+      "Lane": 1,
+      "HitTime": 114348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 114348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 114648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 114648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 114948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 114948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 114948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 115248,
+      "HoldEndTime": 115548,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 115248,
+      "HoldEndTime": 115548,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 115548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 115698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 115848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 115848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 115998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 116148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 116148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 116298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 116448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 116598
+    },
+    {
+      "Lane": 3,
+      "HitTime": 116598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 116748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 116898
+    },
+    {
+      "Lane": 0,
+      "HitTime": 117048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 117048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 117198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 117348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 117348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 117498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 117648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 117648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 117798
+    },
+    {
+      "Lane": 0,
+      "HitTime": 117948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 118098
+    },
+    {
+      "Lane": 2,
+      "HitTime": 118248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 118248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 118323
+    },
+    {
+      "Lane": 3,
+      "HitTime": 118398
+    },
+    {
+      "Lane": 1,
+      "HitTime": 118473
+    },
+    {
+      "Lane": 2,
+      "HitTime": 118548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 118548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 118698
+    },
+    {
+      "Lane": 1,
+      "HitTime": 118848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 118923
+    },
+    {
+      "Lane": 0,
+      "HitTime": 118998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 118998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 119073
+    },
+    {
+      "Lane": 2,
+      "HitTime": 119148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 119298
+    },
+    {
+      "Lane": 3,
+      "HitTime": 119298
+    },
+    {
+      "Lane": 1,
+      "HitTime": 119448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 119523
+    },
+    {
+      "Lane": 3,
+      "HitTime": 119598
+    },
+    {
+      "Lane": 0,
+      "HitTime": 119673
+    },
+    {
+      "Lane": 1,
+      "HitTime": 119748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 119748,
+      "HoldEndTime": 120048,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 120048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 120048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 120198
+    },
+    {
+      "Lane": 3,
+      "HitTime": 120348,
+      "HoldEndTime": 120498,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 120498,
+      "HoldEndTime": 120648,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 120648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 120648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 120798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 120948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 120948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 121098
+    },
+    {
+      "Lane": 3,
+      "HitTime": 121248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 121398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 121398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 121548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 121698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 121848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 121848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 121998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 122148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 122148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 122298
+    },
+    {
+      "Lane": 3,
+      "HitTime": 122448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 122448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 122598
+    },
+    {
+      "Lane": 3,
+      "HitTime": 122748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 122823
+    },
+    {
+      "Lane": 0,
+      "HitTime": 122823
+    },
+    {
+      "Lane": 2,
+      "HitTime": 122898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 122898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 123048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 123048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 123123
+    },
+    {
+      "Lane": 1,
+      "HitTime": 123198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 123273
+    },
+    {
+      "Lane": 3,
+      "HitTime": 123348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 123348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 123498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 123498
+    },
+    {
+      "Lane": 3,
+      "HitTime": 123648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 123648,
+      "HoldEndTime": 123948,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 123948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 124098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 124248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 124248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 124323
+    },
+    {
+      "Lane": 0,
+      "HitTime": 124398
+    },
+    {
+      "Lane": 1,
+      "HitTime": 124473
+    },
+    {
+      "Lane": 2,
+      "HitTime": 124548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 124548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 124698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 124773
+    },
+    {
+      "Lane": 3,
+      "HitTime": 124773
+    },
+    {
+      "Lane": 1,
+      "HitTime": 124848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 124848,
+      "HoldEndTime": 125148,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 125148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 125298
+    },
+    {
+      "Lane": 1,
+      "HitTime": 125448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 125448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 125598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 125748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 125748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 125898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 126048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 126198
+    },
+    {
+      "Lane": 1,
+      "HitTime": 126198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 126348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 126498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 126648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 126648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 126798
+    },
+    {
+      "Lane": 0,
+      "HitTime": 126948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 126948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 127098
+    },
+    {
+      "Lane": 2,
+      "HitTime": 127248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 127248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 127398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 127548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 127698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 127848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 127848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 127923
+    },
+    {
+      "Lane": 3,
+      "HitTime": 127998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 128073
+    },
+    {
+      "Lane": 2,
+      "HitTime": 128148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 128148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 128298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 128448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 128523
+    },
+    {
+      "Lane": 2,
+      "HitTime": 128598
+    },
+    {
+      "Lane": 3,
+      "HitTime": 128598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 128673
+    },
+    {
+      "Lane": 0,
+      "HitTime": 128748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 128898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 128898
+    },
+    {
+      "Lane": 2,
+      "HitTime": 129048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 129048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 129123
+    },
+    {
+      "Lane": 3,
+      "HitTime": 129198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 129273
+    },
+    {
+      "Lane": 1,
+      "HitTime": 129348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 129348,
+      "HoldEndTime": 129648,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 129648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 129648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 129798
+    },
+    {
+      "Lane": 3,
+      "HitTime": 129948,
+      "HoldEndTime": 130098,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 130098,
+      "HoldEndTime": 130248,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 130248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 130248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 130398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 130548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 130548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 130698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 130848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 130998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 130998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 131073
+    },
+    {
+      "Lane": 2,
+      "HitTime": 131148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 131298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 131448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 131448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 131598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 131748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 131748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 131823
+    },
+    {
+      "Lane": 0,
+      "HitTime": 131898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 131973
+    },
+    {
+      "Lane": 2,
+      "HitTime": 132048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 132048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 132198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 132273
+    },
+    {
+      "Lane": 3,
+      "HitTime": 132273
+    },
+    {
+      "Lane": 0,
+      "HitTime": 132423
+    },
+    {
+      "Lane": 1,
+      "HitTime": 132498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 132498
+    },
+    {
+      "Lane": 3,
+      "HitTime": 132648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 132723
+    },
+    {
+      "Lane": 0,
+      "HitTime": 132798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 132873
+    },
+    {
+      "Lane": 2,
+      "HitTime": 132948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 132948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 133098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 133248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 133248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 133473
+    },
+    {
+      "Lane": 2,
+      "HitTime": 133473
+    },
+    {
+      "Lane": 0,
+      "HitTime": 133848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 133848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 134448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 134448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 134448,
+      "HoldEndTime": 138048,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 134748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 135348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 135948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 136548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 137148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 137748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 138048,
+      "HoldEndTime": 141648,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 138348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 138948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 139548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 140148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 140748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 141348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 141648,
+      "HoldEndTime": 142848,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 141948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 142548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 142848,
+      "HoldEndTime": 144048,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 143148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 143748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 144048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 144048,
+      "HoldEndTime": 144198,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 144198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 144348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 144498,
+      "HoldEndTime": 144648,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 144648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 144798,
+      "HoldEndTime": 144948,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 144948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 145098
+    },
+    {
+      "Lane": 3,
+      "HitTime": 145248,
+      "HoldEndTime": 145398,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 145398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 145548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 145698,
+      "HoldEndTime": 145848,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 145848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 145998
+    },
+    {
+      "Lane": 0,
+      "HitTime": 146148,
+      "HoldEndTime": 146298,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 146298,
+      "HoldEndTime": 146448,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 146448,
+      "HoldEndTime": 146598,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 146598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 146748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 146898,
+      "HoldEndTime": 147048,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 147048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 147198,
+      "HoldEndTime": 147348,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 147348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 147498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 147648,
+      "HoldEndTime": 147798,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 147798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 147948,
+      "HoldEndTime": 148098,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 148098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 148248,
+      "HoldEndTime": 148398,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 148398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 148548,
+      "HoldEndTime": 148698,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 148698
+    },
+    {
+      "Lane": 1,
+      "HitTime": 148848,
+      "HoldEndTime": 148998,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 148998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 149148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 149298,
+      "HoldEndTime": 149448,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 149448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 149598,
+      "HoldEndTime": 149748,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 149748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 149898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 150048,
+      "HoldEndTime": 150198,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 150198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 150348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 150498,
+      "HoldEndTime": 150648,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 150648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 150798
+    },
+    {
+      "Lane": 0,
+      "HitTime": 150948,
+      "HoldEndTime": 151098,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 151098,
+      "HoldEndTime": 151248,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 151248,
+      "HoldEndTime": 151398,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 151398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 151548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 151698,
+      "HoldEndTime": 151848,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 151848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 151998,
+      "HoldEndTime": 152148,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 152148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 152298,
+      "HoldEndTime": 152598,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 152448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 152448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 152598,
+      "HoldEndTime": 152748,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 152748,
+      "HoldEndTime": 152898,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 152898,
+      "HoldEndTime": 153048,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 153048,
+      "HoldEndTime": 153648,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 153648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 153648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 153948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 154248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 154248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 154548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 154698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 154848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 154848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 155148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 155448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 155448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 155748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 156048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 156048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 156198
+    },
+    {
+      "Lane": 3,
+      "HitTime": 156348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 156498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 156648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 156648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 156798
+    },
+    {
+      "Lane": 0,
+      "HitTime": 156948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 157098
+    },
+    {
+      "Lane": 2,
+      "HitTime": 157248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 157248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 157398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 157548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 157698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 157848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 157848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 157998
+    },
+    {
+      "Lane": 0,
+      "HitTime": 158148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 158298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 158448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 158448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 158748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 159048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 159048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 159348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 159498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 159648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 159648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 159948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 160248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 160248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 160398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 160548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 160698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 160848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 160848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 160998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 161148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 161298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 161448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 161448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 161598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 161748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 161898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 162048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 162048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 162198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 162348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 162348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 162498
+    },
+    {
+      "Lane": 3,
+      "HitTime": 162648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 162723
+    },
+    {
+      "Lane": 1,
+      "HitTime": 162798
+    },
+    {
+      "Lane": 0,
+      "HitTime": 162948,
+      "HoldEndTime": 163248,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 163248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 163248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 163398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 163548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 163548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 163698
+    },
+    {
+      "Lane": 1,
+      "HitTime": 163848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 163848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 163998
+    },
+    {
+      "Lane": 0,
+      "HitTime": 164148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 164148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 164298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 164448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 164448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 164598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 164748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 164748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 164898
+    },
+    {
+      "Lane": 2,
+      "HitTime": 165048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 165048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 165198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 165348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 165348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 165498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 165648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 165648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 165798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 165948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 165948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 166098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 166248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 166248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 166398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 166548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 166548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 166698
+    },
+    {
+      "Lane": 1,
+      "HitTime": 166848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 166848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 166998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 167148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 167148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 167298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 167448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 167448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 167598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 167748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 167748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 167898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 168048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 168048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 168198
+    },
+    {
+      "Lane": 3,
+      "HitTime": 168198
+    },
+    {
+      "Lane": 1,
+      "HitTime": 168348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 168348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 168498
+    },
+    {
+      "Lane": 3,
+      "HitTime": 168648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 168648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 168798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 168798
+    },
+    {
+      "Lane": 3,
+      "HitTime": 168948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 168948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 169098
+    },
+    {
+      "Lane": 2,
+      "HitTime": 169248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 169248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 169323
+    },
+    {
+      "Lane": 0,
+      "HitTime": 169398
+    },
+    {
+      "Lane": 1,
+      "HitTime": 169473
+    },
+    {
+      "Lane": 3,
+      "HitTime": 169548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 169623
+    },
+    {
+      "Lane": 0,
+      "HitTime": 169698
+    },
+    {
+      "Lane": 1,
+      "HitTime": 169773
+    },
+    {
+      "Lane": 2,
+      "HitTime": 169848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 169923
+    },
+    {
+      "Lane": 0,
+      "HitTime": 169998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 170073
+    },
+    {
+      "Lane": 3,
+      "HitTime": 170148,
+      "HoldEndTime": 170298,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 170223
+    },
+    {
+      "Lane": 0,
+      "HitTime": 170298,
+      "HoldEndTime": 170448,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 170373
+    },
+    {
+      "Lane": 2,
+      "HitTime": 170448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 170448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 171648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 171648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 171798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 171873
+    },
+    {
+      "Lane": 0,
+      "HitTime": 171948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 172023
+    },
+    {
+      "Lane": 2,
+      "HitTime": 172098
+    },
+    {
+      "Lane": 3,
+      "HitTime": 172248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 172398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 172548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 172698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 172848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 172848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 173048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 173148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 173348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 173448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 173598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 173748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 173898
+    },
+    {
+      "Lane": 0,
+      "HitTime": 174048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 174198
+    },
+    {
+      "Lane": 1,
+      "HitTime": 174348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 174498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 174648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 174648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 175248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 175248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 175398
+    },
+    {
+      "Lane": 1,
+      "HitTime": 175548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 175548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 175698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 175773
+    },
+    {
+      "Lane": 3,
+      "HitTime": 175848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 175923
+    },
+    {
+      "Lane": 3,
+      "HitTime": 175998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 176148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 176148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 176298
+    },
+    {
+      "Lane": 3,
+      "HitTime": 176298
+    },
+    {
+      "Lane": 1,
+      "HitTime": 176448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 176448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 176598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 176673
+    },
+    {
+      "Lane": 1,
+      "HitTime": 176748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 176748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 176898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 176898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 177048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 177048,
+      "HoldEndTime": 177348,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 177348,
+      "HoldEndTime": 177648,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 177648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 177648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 177798
+    },
+    {
+      "Lane": 3,
+      "HitTime": 177948,
+      "HoldEndTime": 178098,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 178098,
+      "HoldEndTime": 178248,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 178248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 178248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 178398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 178548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 178548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 178698
+    },
+    {
+      "Lane": 1,
+      "HitTime": 178848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 178848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 178998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 179148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 179148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 179298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 179448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 179448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 179523
+    },
+    {
+      "Lane": 1,
+      "HitTime": 179598
+    },
+    {
+      "Lane": 0,
+      "HitTime": 179673
+    },
+    {
+      "Lane": 2,
+      "HitTime": 179748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 179748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 179898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 180048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 180048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 180198
+    },
+    {
+      "Lane": 1,
+      "HitTime": 180348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 180348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 180498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 180648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 180648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 180798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 180948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 180948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 181098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 181248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 181248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 181398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 181473
+    },
+    {
+      "Lane": 2,
+      "HitTime": 181548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 181698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 181698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 181848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 181848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 181923
+    },
+    {
+      "Lane": 1,
+      "HitTime": 181998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 182073
+    },
+    {
+      "Lane": 0,
+      "HitTime": 182148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 182148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 182298
+    },
+    {
+      "Lane": 3,
+      "HitTime": 182448,
+      "HoldEndTime": 182748,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 182448,
+      "HoldEndTime": 182748,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 182748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 182898
+    },
+    {
+      "Lane": 2,
+      "HitTime": 183048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 183048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 183198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 183348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 183348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 183498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 183648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 183648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 183798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 183948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 183948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 184098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 184248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 184248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 184398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 184548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 184548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 184698
+    },
+    {
+      "Lane": 1,
+      "HitTime": 184848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 184848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 184998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 185148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 185148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 185298
+    },
+    {
+      "Lane": 1,
+      "HitTime": 185448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 185448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 185598
+    },
+    {
+      "Lane": 0,
+      "HitTime": 185748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 185748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 185898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 186048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 186048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 186198
+    },
+    {
+      "Lane": 3,
+      "HitTime": 186348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 186348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 186498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 186648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 186648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 186723
+    },
+    {
+      "Lane": 2,
+      "HitTime": 186798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 186873
+    },
+    {
+      "Lane": 0,
+      "HitTime": 186948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 186948,
+      "HoldEndTime": 187248,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 187248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 187248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 187398
+    },
+    {
+      "Lane": 1,
+      "HitTime": 187473
+    },
+    {
+      "Lane": 2,
+      "HitTime": 187548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 187548,
+      "HoldEndTime": 187698,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 187698,
+      "HoldEndTime": 187848,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 187848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 187848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 187998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 188148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 188148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 188298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 188448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 188448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 188598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 188673
+    },
+    {
+      "Lane": 0,
+      "HitTime": 188748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 188748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 188898
+    },
+    {
+      "Lane": 2,
+      "HitTime": 189048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 189048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 189198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 189348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 189348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 189423
+    },
+    {
+      "Lane": 0,
+      "HitTime": 189498
+    },
+    {
+      "Lane": 3,
+      "HitTime": 189573
+    },
+    {
+      "Lane": 2,
+      "HitTime": 189648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 189648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 189798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 189948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 189948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 190098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 190248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 190398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 190548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 190698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 190848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 190848,
+      "HoldEndTime": 191148,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 191035
+    },
+    {
+      "Lane": 1,
+      "HitTime": 191148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 191298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 191448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 191448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 191748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 191748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 191748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 192048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 192123
+    },
+    {
+      "Lane": 1,
+      "HitTime": 192198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 192348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 192348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 192498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 192498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 192648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 192648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 192723
+    },
+    {
+      "Lane": 3,
+      "HitTime": 192798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 192873
+    },
+    {
+      "Lane": 0,
+      "HitTime": 192948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 193023
+    },
+    {
+      "Lane": 2,
+      "HitTime": 193098
+    },
+    {
+      "Lane": 3,
+      "HitTime": 193173
+    },
+    {
+      "Lane": 1,
+      "HitTime": 193248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 193323
+    },
+    {
+      "Lane": 2,
+      "HitTime": 193398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 193473
+    },
+    {
+      "Lane": 0,
+      "HitTime": 193548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 193623
+    },
+    {
+      "Lane": 2,
+      "HitTime": 193698
+    },
+    {
+      "Lane": 3,
+      "HitTime": 193773
+    },
+    {
+      "Lane": 1,
+      "HitTime": 193848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 193923
+    },
+    {
+      "Lane": 2,
+      "HitTime": 193998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 194073
+    },
+    {
+      "Lane": 0,
+      "HitTime": 194148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 194223
+    },
+    {
+      "Lane": 3,
+      "HitTime": 194298
+    },
+    {
+      "Lane": 1,
+      "HitTime": 194373
+    },
+    {
+      "Lane": 2,
+      "HitTime": 194448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 194523
+    },
+    {
+      "Lane": 2,
+      "HitTime": 194598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 194673
+    },
+    {
+      "Lane": 0,
+      "HitTime": 194748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 194898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 194973
+    },
+    {
+      "Lane": 3,
+      "HitTime": 195048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 195123
+    },
+    {
+      "Lane": 1,
+      "HitTime": 195198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 195348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 195423
+    },
+    {
+      "Lane": 0,
+      "HitTime": 195498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 195573
+    },
+    {
+      "Lane": 2,
+      "HitTime": 195648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 195798
+    },
+    {
+      "Lane": 3,
+      "HitTime": 195873
+    },
+    {
+      "Lane": 1,
+      "HitTime": 195948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 196023
+    },
+    {
+      "Lane": 0,
+      "HitTime": 196098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 196173
+    },
+    {
+      "Lane": 2,
+      "HitTime": 196248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 196248,
+      "HoldEndTime": 196548,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 196548,
+      "HoldEndTime": 196848,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 196848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 196848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 197073
+    },
+    {
+      "Lane": 3,
+      "HitTime": 197073
+    },
+    {
+      "Lane": 1,
+      "HitTime": 197298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 197298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 197448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 197448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 197523
+    },
+    {
+      "Lane": 1,
+      "HitTime": 197598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 197673
+    },
+    {
+      "Lane": 3,
+      "HitTime": 197748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 197823
+    },
+    {
+      "Lane": 2,
+      "HitTime": 197898
+    },
+    {
+      "Lane": 0,
+      "HitTime": 197973
+    },
+    {
+      "Lane": 1,
+      "HitTime": 198048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 198123
+    },
+    {
+      "Lane": 2,
+      "HitTime": 198198
+    },
+    {
+      "Lane": 1,
+      "HitTime": 198273
+    },
+    {
+      "Lane": 3,
+      "HitTime": 198348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 198423
+    },
+    {
+      "Lane": 2,
+      "HitTime": 198498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 198573
+    },
+    {
+      "Lane": 0,
+      "HitTime": 198648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 198723
+    },
+    {
+      "Lane": 1,
+      "HitTime": 198798
+    },
+    {
+      "Lane": 3,
+      "HitTime": 198873
+    },
+    {
+      "Lane": 0,
+      "HitTime": 198948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 199023
+    },
+    {
+      "Lane": 2,
+      "HitTime": 199098
+    },
+    {
+      "Lane": 3,
+      "HitTime": 199173
+    },
+    {
+      "Lane": 1,
+      "HitTime": 199248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 199248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 199398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 199548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 199548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 199623
+    },
+    {
+      "Lane": 3,
+      "HitTime": 199698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 199848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 199998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 199998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 200073
+    },
+    {
+      "Lane": 0,
+      "HitTime": 200148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 200298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 200298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 200448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 200448,
+      "HoldEndTime": 201048,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 201048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 201198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 201348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 201348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 201498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 201648,
+      "HoldEndTime": 201948,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 201648,
+      "HoldEndTime": 201948,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 201948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 201948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 202023
+    },
+    {
+      "Lane": 0,
+      "HitTime": 202098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 202173
+    },
+    {
+      "Lane": 2,
+      "HitTime": 202248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 202323
+    },
+    {
+      "Lane": 0,
+      "HitTime": 202398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 202473
+    },
+    {
+      "Lane": 2,
+      "HitTime": 202548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 202623
+    },
+    {
+      "Lane": 1,
+      "HitTime": 202698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 202773
+    },
+    {
+      "Lane": 3,
+      "HitTime": 202848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 202923
+    },
+    {
+      "Lane": 1,
+      "HitTime": 202998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 203073
+    },
+    {
+      "Lane": 2,
+      "HitTime": 203148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 203223
+    },
+    {
+      "Lane": 3,
+      "HitTime": 203298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 203373
+    },
+    {
+      "Lane": 0,
+      "HitTime": 203448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 203523
+    },
+    {
+      "Lane": 2,
+      "HitTime": 203598
+    },
+    {
+      "Lane": 0,
+      "HitTime": 203673
+    },
+    {
+      "Lane": 1,
+      "HitTime": 203748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 203823
+    },
+    {
+      "Lane": 2,
+      "HitTime": 203898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 203973
+    },
+    {
+      "Lane": 2,
+      "HitTime": 204048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 204123
+    },
+    {
+      "Lane": 1,
+      "HitTime": 204198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 204273
+    },
+    {
+      "Lane": 0,
+      "HitTime": 204348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 204423
+    },
+    {
+      "Lane": 3,
+      "HitTime": 204498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 204573
+    },
+    {
+      "Lane": 1,
+      "HitTime": 204648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 204723
+    },
+    {
+      "Lane": 3,
+      "HitTime": 204798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 204873
+    },
+    {
+      "Lane": 0,
+      "HitTime": 204948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 205023
+    },
+    {
+      "Lane": 2,
+      "HitTime": 205098
+    },
+    {
+      "Lane": 3,
+      "HitTime": 205173
+    },
+    {
+      "Lane": 0,
+      "HitTime": 205248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 205323
+    },
+    {
+      "Lane": 3,
+      "HitTime": 205398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 205473
+    },
+    {
+      "Lane": 0,
+      "HitTime": 205548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 205623
+    },
+    {
+      "Lane": 2,
+      "HitTime": 205698
+    },
+    {
+      "Lane": 3,
+      "HitTime": 205773
+    },
+    {
+      "Lane": 1,
+      "HitTime": 205848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 205848,
+      "HoldEndTime": 206148,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 206148,
+      "HoldEndTime": 206448,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 206448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 206448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 206673
+    },
+    {
+      "Lane": 3,
+      "HitTime": 206673
+    },
+    {
+      "Lane": 1,
+      "HitTime": 206898
+    },
+    {
+      "Lane": 0,
+      "HitTime": 206898
+    },
+    {
+      "Lane": 2,
+      "HitTime": 207048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 207048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 207123
+    },
+    {
+      "Lane": 0,
+      "HitTime": 207198
+    },
+    {
+      "Lane": 3,
+      "HitTime": 207273
+    },
+    {
+      "Lane": 2,
+      "HitTime": 207348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 207423
+    },
+    {
+      "Lane": 2,
+      "HitTime": 207498
+    },
+    {
+      "Lane": 3,
+      "HitTime": 207573
+    },
+    {
+      "Lane": 0,
+      "HitTime": 207648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 207723
+    },
+    {
+      "Lane": 2,
+      "HitTime": 207798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 207873
+    },
+    {
+      "Lane": 3,
+      "HitTime": 207948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 208023
+    },
+    {
+      "Lane": 1,
+      "HitTime": 208098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 208173
+    },
+    {
+      "Lane": 3,
+      "HitTime": 208248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 208323
+    },
+    {
+      "Lane": 0,
+      "HitTime": 208398
+    },
+    {
+      "Lane": 1,
+      "HitTime": 208473
+    },
+    {
+      "Lane": 3,
+      "HitTime": 208548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 208623
+    },
+    {
+      "Lane": 1,
+      "HitTime": 208698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 208773
+    },
+    {
+      "Lane": 2,
+      "HitTime": 208848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 208848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 208998
+    },
+    {
+      "Lane": 0,
+      "HitTime": 208998
+    },
+    {
+      "Lane": 3,
+      "HitTime": 209148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 209223
+    },
+    {
+      "Lane": 0,
+      "HitTime": 209298
+    },
+    {
+      "Lane": 1,
+      "HitTime": 209373
+    },
+    {
+      "Lane": 3,
+      "HitTime": 209448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 209523
+    },
+    {
+      "Lane": 0,
+      "HitTime": 209598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 209673
+    },
+    {
+      "Lane": 3,
+      "HitTime": 209748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 209823
+    },
+    {
+      "Lane": 0,
+      "HitTime": 209898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 209973
+    },
+    {
+      "Lane": 2,
+      "HitTime": 210048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 210048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 210235
+    },
+    {
+      "Lane": 0,
+      "HitTime": 210235
+    },
+    {
+      "Lane": 2,
+      "HitTime": 210348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 210648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 210648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 210948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 210948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 210948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 211248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 211248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 211398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 211398
+    },
+    {
+      "Lane": 1,
+      "HitTime": 211548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 211548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 211698
+    },
+    {
+      "Lane": 3,
+      "HitTime": 211848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 211848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 211998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 212148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 212148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 212298
+    },
+    {
+      "Lane": 1,
+      "HitTime": 212448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 212448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 212598
+    },
+    {
+      "Lane": 0,
+      "HitTime": 212748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 212748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 212898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 213048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 213048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 213198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 213348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 213348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 213498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 213648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 213648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 213648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 213798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 213948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 213948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 214098
+    },
+    {
+      "Lane": 2,
+      "HitTime": 214248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 214248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 214323
+    },
+    {
+      "Lane": 1,
+      "HitTime": 214398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 214473
+    },
+    {
+      "Lane": 2,
+      "HitTime": 214548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 214548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 214698
+    },
+    {
+      "Lane": 3,
+      "HitTime": 214698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 214848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 214848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 214923
+    },
+    {
+      "Lane": 1,
+      "HitTime": 214998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 215073
+    },
+    {
+      "Lane": 0,
+      "HitTime": 215148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 215148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 215298
+    },
+    {
+      "Lane": 1,
+      "HitTime": 215373
+    },
+    {
+      "Lane": 2,
+      "HitTime": 215448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 215448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 215598
+    },
+    {
+      "Lane": 0,
+      "HitTime": 215598
+    },
+    {
+      "Lane": 0,
+      "HitTime": 215748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 215748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 215748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 216048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 216048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 216198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 216348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 216348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 216498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 216648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 216648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 216798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 216948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 216948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 217098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 217248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 217248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 217398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 217548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 217548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 217698
+    },
+    {
+      "Lane": 0,
+      "HitTime": 217848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 217848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 217998
+    },
+    {
+      "Lane": 1,
+      "HitTime": 218148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 218148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 218298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 218448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 218448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 218448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 218598
+    },
+    {
+      "Lane": 2,
+      "HitTime": 218748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 218748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 218898
+    },
+    {
+      "Lane": 0,
+      "HitTime": 219048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 219048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 219123
+    },
+    {
+      "Lane": 2,
+      "HitTime": 219198
+    },
+    {
+      "Lane": 1,
+      "HitTime": 219273
+    },
+    {
+      "Lane": 0,
+      "HitTime": 219348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 219348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 219498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 219498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 219648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 219648,
+      "HoldEndTime": 219948,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 219948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 220098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 220248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 220323
+    },
+    {
+      "Lane": 2,
+      "HitTime": 220398
+    },
+    {
+      "Lane": 0,
+      "HitTime": 220548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 220548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 220698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 220773
+    },
+    {
+      "Lane": 3,
+      "HitTime": 220848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 220848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 220998
+    },
+    {
+      "Lane": 0,
+      "HitTime": 220998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 221148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 221148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 221298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 221448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 221448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 221598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 221748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 221748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 221898
+    },
+    {
+      "Lane": 0,
+      "HitTime": 222048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 222048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 222198
+    },
+    {
+      "Lane": 0,
+      "HitTime": 222348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 222348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 222498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 222648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 222648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 222798
+    },
+    {
+      "Lane": 2,
+      "HitTime": 222948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 222948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 223098
+    },
+    {
+      "Lane": 1,
+      "HitTime": 223248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 223248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 223248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 223398
+    },
+    {
+      "Lane": 1,
+      "HitTime": 223548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 223548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 223698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 223848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 223848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 223923
+    },
+    {
+      "Lane": 3,
+      "HitTime": 223998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 224073
+    },
+    {
+      "Lane": 1,
+      "HitTime": 224148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 224148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 224298
+    },
+    {
+      "Lane": 3,
+      "HitTime": 224298
+    },
+    {
+      "Lane": 1,
+      "HitTime": 224448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 224448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 224523
+    },
+    {
+      "Lane": 2,
+      "HitTime": 224598
+    },
+    {
+      "Lane": 1,
+      "HitTime": 224673
+    },
+    {
+      "Lane": 2,
+      "HitTime": 224748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 224748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 224898
+    },
+    {
+      "Lane": 2,
+      "HitTime": 224973
+    },
+    {
+      "Lane": 1,
+      "HitTime": 225048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 225048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 225198
+    },
+    {
+      "Lane": 3,
+      "HitTime": 225198
+    },
+    {
+      "Lane": 1,
+      "HitTime": 225348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 225348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 225348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 225648,
+      "HoldEndTime": 225948,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 225648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 225948,
+      "HoldEndTime": 226098,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 226098,
+      "HoldEndTime": 226248,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 226248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 226248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 226398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 226548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 226548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 226698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 226848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 226998
+    },
+    {
+      "Lane": 0,
+      "HitTime": 226998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 227073
+    },
+    {
+      "Lane": 3,
+      "HitTime": 227148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 227298
+    },
+    {
+      "Lane": 1,
+      "HitTime": 227448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 227448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 227598
+    },
+    {
+      "Lane": 0,
+      "HitTime": 227748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 227748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 227823
+    },
+    {
+      "Lane": 2,
+      "HitTime": 227898
+    },
+    {
+      "Lane": 3,
+      "HitTime": 227973
+    },
+    {
+      "Lane": 1,
+      "HitTime": 228048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 228048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 228198
+    },
+    {
+      "Lane": 1,
+      "HitTime": 228273
+    },
+    {
+      "Lane": 0,
+      "HitTime": 228273
+    },
+    {
+      "Lane": 3,
+      "HitTime": 228423
+    },
+    {
+      "Lane": 2,
+      "HitTime": 228498
+    },
+    {
+      "Lane": 0,
+      "HitTime": 228498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 228648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 228648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 228723
+    },
+    {
+      "Lane": 0,
+      "HitTime": 228798
+    },
+    {
+      "Lane": 1,
+      "HitTime": 228873
+    },
+    {
+      "Lane": 2,
+      "HitTime": 228948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 228948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 229098
+    },
+    {
+      "Lane": 2,
+      "HitTime": 229173
+    },
+    {
+      "Lane": 3,
+      "HitTime": 229248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 229248,
+      "HoldEndTime": 229548,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 229548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 229848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 229848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 229998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 230148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 230298
+    },
+    {
+      "Lane": 0,
+      "HitTime": 230448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 230448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 230748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 230748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 231048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 231048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 231348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 231348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 231648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 231648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 231948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 231948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 232248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 232248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 232548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 232548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 232848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 232848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 233148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 233148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 233448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 233448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 233748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 233748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 234048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 234048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 234348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 234348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 234648,
+      "HoldEndTime": 234948,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 234648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 234948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 235098
+    },
+    {
+      "Lane": 0,
+      "HitTime": 235248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 235248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 235548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 235548
+    },
+    {
+      "Lane": 2,
+      "HitTime": 235848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 235848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 236148
+    },
+    {
+      "Lane": 3,
+      "HitTime": 236148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 236448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 236448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 236748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 236748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 237048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 237048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 237348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 237348
+    },
+    {
+      "Lane": 1,
+      "HitTime": 237648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 237648
+    },
+    {
+      "Lane": 2,
+      "HitTime": 237948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 237948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 238248
+    },
+    {
+      "Lane": 3,
+      "HitTime": 238248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 238323
+    },
+    {
+      "Lane": 2,
+      "HitTime": 238398
+    },
+    {
+      "Lane": 3,
+      "HitTime": 238473
+    },
+    {
+      "Lane": 0,
+      "HitTime": 238548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 238548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 238848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 238848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 238848
+    },
+    {
+      "Lane": 1,
+      "HitTime": 239148,
+      "HoldEndTime": 239448,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 239448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 239598
+    },
+    {
+      "Lane": 0,
+      "HitTime": 239748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 239898
+    },
+    {
+      "Lane": 2,
+      "HitTime": 239973
+    },
+    {
+      "Lane": 3,
+      "HitTime": 240048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 240048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 240348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 240348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 240498,
+      "HoldEndTime": 240648,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 240648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 240648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 240798,
+      "HoldEndTime": 240948,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 240948
+    },
+    {
+      "Lane": 3,
+      "HitTime": 240948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 241248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 241248,
+      "HoldEndTime": 241398,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 241548
+    },
+    {
+      "Lane": 3,
+      "HitTime": 241548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 241698,
+      "HoldEndTime": 241848,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 241848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 241848
+    },
+    {
+      "Lane": 2,
+      "HitTime": 242148,
+      "HoldEndTime": 242298,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 242148
+    },
+    {
+      "Lane": 1,
+      "HitTime": 242298,
+      "HoldEndTime": 242448,
+      "IsHold": true
+    },
+    {
+      "Lane": 2,
+      "HitTime": 242448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 242448
+    },
+    {
+      "Lane": 1,
+      "HitTime": 242748
+    },
+    {
+      "Lane": 0,
+      "HitTime": 242748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 242898,
+      "HoldEndTime": 243048,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 243048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 243048
+    },
+    {
+      "Lane": 2,
+      "HitTime": 243198,
+      "HoldEndTime": 243348,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 243348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 243348
+    },
+    {
+      "Lane": 2,
+      "HitTime": 243648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 243648,
+      "HoldEndTime": 243798,
+      "IsHold": true
+    },
+    {
+      "Lane": 1,
+      "HitTime": 243948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 243948
+    },
+    {
+      "Lane": 2,
+      "HitTime": 244098,
+      "HoldEndTime": 244248,
+      "IsHold": true
+    },
+    {
+      "Lane": 3,
+      "HitTime": 244248
+    },
+    {
+      "Lane": 1,
+      "HitTime": 244248,
+      "HoldEndTime": 244548,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 244548
+    },
+    {
+      "Lane": 1,
+      "HitTime": 244698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 244848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 244848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 244848
+    },
+    {
+      "Lane": 3,
+      "HitTime": 245148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 245148
+    },
+    {
+      "Lane": 2,
+      "HitTime": 245448
+    },
+    {
+      "Lane": 3,
+      "HitTime": 245448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 245748
+    },
+    {
+      "Lane": 3,
+      "HitTime": 245748
+    },
+    {
+      "Lane": 1,
+      "HitTime": 245973
+    },
+    {
+      "Lane": 0,
+      "HitTime": 245973
+    },
+    {
+      "Lane": 2,
+      "HitTime": 246048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 246048
+    },
+    {
+      "Lane": 1,
+      "HitTime": 246348
+    },
+    {
+      "Lane": 0,
+      "HitTime": 246348
+    },
+    {
+      "Lane": 3,
+      "HitTime": 246498
+    },
+    {
+      "Lane": 2,
+      "HitTime": 246498
+    },
+    {
+      "Lane": 1,
+      "HitTime": 246648
+    },
+    {
+      "Lane": 0,
+      "HitTime": 246648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 246948
+    },
+    {
+      "Lane": 0,
+      "HitTime": 246948
+    },
+    {
+      "Lane": 1,
+      "HitTime": 247098
+    },
+    {
+      "Lane": 2,
+      "HitTime": 247098
+    },
+    {
+      "Lane": 3,
+      "HitTime": 247248
+    },
+    {
+      "Lane": 2,
+      "HitTime": 247248
+    },
+    {
+      "Lane": 0,
+      "HitTime": 247323
+    },
+    {
+      "Lane": 1,
+      "HitTime": 247398
+    },
+    {
+      "Lane": 2,
+      "HitTime": 247473
+    },
+    {
+      "Lane": 3,
+      "HitTime": 247548
+    },
+    {
+      "Lane": 0,
+      "HitTime": 247623
+    },
+    {
+      "Lane": 1,
+      "HitTime": 247698
+    },
+    {
+      "Lane": 2,
+      "HitTime": 247773
+    },
+    {
+      "Lane": 3,
+      "HitTime": 247848
+    },
+    {
+      "Lane": 0,
+      "HitTime": 247923
+    },
+    {
+      "Lane": 1,
+      "HitTime": 247998
+    },
+    {
+      "Lane": 2,
+      "HitTime": 248073
+    },
+    {
+      "Lane": 3,
+      "HitTime": 248148
+    },
+    {
+      "Lane": 0,
+      "HitTime": 248223
+    },
+    {
+      "Lane": 1,
+      "HitTime": 248298
+    },
+    {
+      "Lane": 2,
+      "HitTime": 248373
+    },
+    {
+      "Lane": 3,
+      "HitTime": 248448
+    },
+    {
+      "Lane": 0,
+      "HitTime": 248448
+    },
+    {
+      "Lane": 2,
+      "HitTime": 248523
+    },
+    {
+      "Lane": 1,
+      "HitTime": 248598
+    },
+    {
+      "Lane": 3,
+      "HitTime": 248748
+    },
+    {
+      "Lane": 2,
+      "HitTime": 248898
+    },
+    {
+      "Lane": 1,
+      "HitTime": 249048
+    },
+    {
+      "Lane": 0,
+      "HitTime": 249048
+    },
+    {
+      "Lane": 3,
+      "HitTime": 249198
+    },
+    {
+      "Lane": 2,
+      "HitTime": 249348,
+      "HoldEndTime": 249648,
+      "IsHold": true
+    },
+    {
+      "Lane": 0,
+      "HitTime": 249648
+    },
+    {
+      "Lane": 3,
+      "HitTime": 249648
+    },
+    {
+      "Lane": 1,
+      "HitTime": 249648
+    }
+  ]
+}
