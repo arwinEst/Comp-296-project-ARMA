@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Comp-296-project-ARMA-main",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

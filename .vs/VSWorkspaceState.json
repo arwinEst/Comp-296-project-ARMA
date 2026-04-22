@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\net9.0",
+    "\\Content",
+    "\\Content\\bin\\DesktopGL",
+    "\\Content\\Charts",
+    "\\Data",
+    "\\Objects",
+    "\\Screens"
+  ],
+  "SelectedNode": "\\bin\\Debug\\net9.0\\arma.db",
+  "PreviewInSolutionExplorer": false
+}
