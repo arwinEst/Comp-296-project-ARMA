@@ -107,18 +107,18 @@ namespace Comp_296_project_ARMA.Screens
             // Check which lanes are pressed
             bool aPressed = _currentState.IsKeyDown(Keys.A);
             bool sPressed = _currentState.IsKeyDown(Keys.S);
+            bool kPressed = _currentState.IsKeyDown(Keys.K);
             bool lPressed = _currentState.IsKeyDown(Keys.L);
-            bool oemSemicolonPressed = _currentState.IsKeyDown(Keys.OemSemicolon);
 
             _lanePressed[0] = aPressed;
             _lanePressed[1] = sPressed;
-            _lanePressed[2] = lPressed;
-            _lanePressed[3] = oemSemicolonPressed;
+            _lanePressed[2] = kPressed;
+            _lanePressed[3] = lPressed;
 
             if (aPressed && !_previousState.IsKeyDown(Keys.A)) TryHit(0);
             if (sPressed && !_previousState.IsKeyDown(Keys.S)) TryHit(1);
-            if (lPressed && !_previousState.IsKeyDown(Keys.L)) TryHit(2);
-            if (oemSemicolonPressed && !_previousState.IsKeyDown(Keys.OemSemicolon)) TryHit(3);
+            if (kPressed && !_previousState.IsKeyDown(Keys.K)) TryHit(2);
+            if (lPressed && !_previousState.IsKeyDown(Keys.L)) TryHit(3);
 
 
 
