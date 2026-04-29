@@ -36,7 +36,7 @@ namespace Comp_296_project_ARMA
             _databaseManager.RegisterChart(chart, chartPath);
 
             _screenManager = new ScreenManager();
-            _screenManager.SetScreen(new MainMenuScreen(_font, _background, _spriteBatch, _screenManager, GraphicsDevice));
+            _screenManager.SetScreen(new MainMenuScreen(_font, _background, _spriteBatch, _screenManager, GraphicsDevice, _databaseManager));
         }
 
         public Game1()
