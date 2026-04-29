@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bin",
     "\\bin\\Debug",
-    "\\bin\\Debug\\net9.0",
     "\\Content",
+    "\\Content\\Audio",
     "\\Content\\Charts",
     "\\Data",
     "\\Judgements",
     "\\Objects",
     "\\Screens"
   ],
-  "SelectedNode": "\\Judgements\\JudgementResult.cs",
+  "SelectedNode": "\\Screens\\MainMenuScreen.cs",
   "PreviewInSolutionExplorer": false
 }
