@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Comp_296_project_ARMA.Data;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
@@ -20,7 +21,10 @@ namespace Comp_296_project_ARMA.Screens
         private int _selectedIndex = 0;
         private KeyboardState _currentState;
         private KeyboardState _previousState;
+        private DatabaseManager _databaseManager;
+
         private List<String> _menuItems = new List<string>
+
         {
             "Play",
             "Settings",
@@ -28,13 +32,14 @@ namespace Comp_296_project_ARMA.Screens
         };
 
         public MainMenuScreen(SpriteFont font, Texture2D background, SpriteBatch spriteBatch,
-        ScreenManager screenManager, GraphicsDevice graphicsDevice)
+        ScreenManager screenManager, GraphicsDevice graphicsDevice, DatabaseManager databaseManager)
         {
             _font = font;
             _background = background;
             _spriteBatch = spriteBatch;
             _screenManager = screenManager;
             _graphicsDevice = graphicsDevice;
+            _databaseManager = databaseManager;
         }
 
     
@@ -63,10 +68,10 @@ namespace Comp_296_project_ARMA.Screens
             switch (_selectedIndex)
             {
                 case 0: // Play - switch to song select screen
-                    _screenManager.SetScreen(new SongSelectionScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice));
+                    _screenManager.SetScreen(new SongSelectionScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice, _databaseManager));
                     break;
                 case 1: // Settings
-                    _screenManager.SetScreen(new OptionsScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice));
+                    _screenManager.SetScreen(new OptionsScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice, _databaseManager));
                     break;
                 case 2: // Exit game
                     System.Environment.Exit(0);
