@@ -2,7 +2,7 @@
 
 namespace Comp_296_project_ARMA.Judgements
 {
-    public class Judgement
+    public enum Judgement
     {
        Marvelous,  
        Perfect,
