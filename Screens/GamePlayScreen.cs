@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Comp_296_project_ARMA.Objects;
 using Comp_296_project_ARMA.Audio;
+using Comp_296_project_ARMA.Judgements;
+using Comp_296_project_ARMA.Data;
 
 namespace Comp_296_project_ARMA.Screens
 {
@@ -30,10 +32,16 @@ namespace Comp_296_project_ARMA.Screens
         private double _timer = 0;
         private Chart _chart;
 
+        public ScoreProcessor _scoreProcessor;
+        public HitWindowSet _hitWindows;
+        private List<NoteObject> _activeNotes;
+        public JudgementResult _lastJudgement;
+        private DatabaseManager _databaseManager;
+
         private bool [] _lanePressed = new bool[4];
 
         public GamePlayScreen(SpriteFont font, Texture2D background, SpriteBatch spriteBatch, ScreenManager screenManager,
-            GraphicsDevice graphicsDevice)
+            GraphicsDevice graphicsDevice, DatabaseManager databaseManager)
         {
             _font = font;
             _spriteBatch = spriteBatch;
@@ -50,6 +58,12 @@ namespace Comp_296_project_ARMA.Screens
             _soundEngine = new SoundEngine();
             _soundEngine.LoadSong("Content/Audio/" + _chart.AudioFile + ".mp3");
             _soundEngine.SetVolume(0.2f); // Set volume to 50%
+
+            // Initialize score processor and hit windows
+            _hitWindows = new HitWindowSet(20, 40, 60, 80, 120);
+            _scoreProcessor = new ScoreProcessor(_chart.Notes.Count);
+            _activeNotes = new List<NoteObject>(_chart.Notes);
+            _databaseManager = databaseManager;
         }
 
 
@@ -77,23 +91,31 @@ namespace Comp_296_project_ARMA.Screens
                 return;
             }
 
+            if (_soundEngine.CurrentTime >= _soundEngine.TotalTime || _activeNotes.Count == 0)
+            {
+                SaveAndExit();
+                return;
+            }
+
+            CheckMissedNotes();
+
             _currentTime += gameTime.ElapsedGameTime.TotalMilliseconds;
 
             // Check which lanes are pressed
-            bool dPressed = _currentState.IsKeyDown(Keys.D);
-            bool fPressed = _currentState.IsKeyDown(Keys.F);
-            bool jPressed = _currentState.IsKeyDown(Keys.J);
-            bool kPressed = _currentState.IsKeyDown(Keys.K);
+            bool aPressed = _currentState.IsKeyDown(Keys.A);
+            bool sPressed = _currentState.IsKeyDown(Keys.S);
+            bool lPressed = _currentState.IsKeyDown(Keys.L);
+            bool oemSemicolonPressed = _currentState.IsKeyDown(Keys.OemSemicolon);
 
-            _lanePressed[0] = dPressed;
-            _lanePressed[1] = fPressed;
-            _lanePressed[2] = jPressed;
-            _lanePressed[3] = kPressed;
+            _lanePressed[0] = aPressed;
+            _lanePressed[1] = sPressed;
+            _lanePressed[2] = lPressed;
+            _lanePressed[3] = oemSemicolonPressed;
 
-            if (dPressed && !_previousState.IsKeyDown(Keys.D)) TryHit(0);
-            if (fPressed && !_previousState.IsKeyDown(Keys.F)) TryHit(1);
-            if (jPressed && !_previousState.IsKeyDown(Keys.J)) TryHit(2);
-            if (kPressed && !_previousState.IsKeyDown(Keys.K)) TryHit(3);
+            if (aPressed && !_previousState.IsKeyDown(Keys.A)) TryHit(0);
+            if (sPressed && !_previousState.IsKeyDown(Keys.S)) TryHit(1);
+            if (lPressed && !_previousState.IsKeyDown(Keys.L)) TryHit(2);
+            if (oemSemicolonPressed && !_previousState.IsKeyDown(Keys.OemSemicolon)) TryHit(3);
 
 
 
@@ -105,18 +127,78 @@ namespace Comp_296_project_ARMA.Screens
         {
             _playfield.Draw(spriteBatch);
             _noteRenderer.Draw(spriteBatch, _currentTime);
+
+            // Score Display
+            spriteBatch.DrawString(_font, $"Score: {_scoreProcessor.Score}", new Vector2(50, 50), Color.White);
+
+            spriteBatch.DrawString(_font, $"Combo: {_scoreProcessor.Combo}", new Vector2(50, 90), Color.White);
+
+            spriteBatch.DrawString(_font, $"Accuracy: {_scoreProcessor.Accuracy:F2}%", new Vector2(50, 130), Color.White);
+
+            // Last Judgement Display
+            if (_lastJudgement != null)
+            {
+                Color judgementColor = _lastJudgement.Judgement switch
+                {
+                    Judgements.Judgement.Marvelous => Color.Magenta,
+                    Judgements.Judgement.Perfect => Color.Green,
+                    Judgements.Judgement.Great => Color.Blue,
+                    Judgements.Judgement.Good => Color.Yellow,
+                    Judgements.Judgement.Bad => Color.Orange,
+                    Judgements.Judgement.Miss => Color.Red,
+                    _ => Color.White
+                };
+
+                spriteBatch.DrawString(_font, _lastJudgement.Judgement.ToString(),
+                    new Vector2(800, 500), judgementColor);
+            }
+        }
+
+        private void SaveAndExit()
+        {
+            
+
+            // Save score to database
+            _databaseManager.SaveScore(
+                _chart.Title,
+                _scoreProcessor.Score,
+                _scoreProcessor.Combo,
+                _scoreProcessor.Accuracy,
+                _scoreProcessor.MarvelousCount,
+                _scoreProcessor.PerfectCount,   
+                _scoreProcessor.GreatCount,
+                _scoreProcessor.GoodCount,
+                _scoreProcessor.BadCount,
+                _scoreProcessor.MissCount,
+                _scoreProcessor.GetGrade()
+            );
+
+            _screenManager.SetScreen(new ResultScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice, _databaseManager));
         }
 
         bool TryHit(int lane)
         {
-            for (int i=0; i < _chart.Notes.Count; i++)
+
+            for (int i = 0; i < _chart.Notes.Count; i++)
             {
+
                 var note = _chart.Notes[i];
                 if (note.Lane == lane)
                 {
-                    double timeDiff = Math.Abs(note.HitTime - _currentTime);
-                    if (timeDiff < 150) // 150ms hit window
+                    double timeDiff = note.HitTime - _currentTime;
+                    if (Math.Abs(timeDiff) <= _hitWindows.Bad) // 150ms hit window
                     {
+
+                        // Determine judgement
+                        Judgement judgement = _hitWindows.GetJudgement(timeDiff);
+                        _lastJudgement = new JudgementResult
+                        {
+                            Judgement = judgement,
+                            HitDifference = timeDiff,
+                            Lane = lane
+                        };
+
+                        _scoreProcessor.ApplyJudgement(_lastJudgement);
                         _chart.Notes.RemoveAt(i);
                         return true;
                     }
@@ -125,10 +207,29 @@ namespace Comp_296_project_ARMA.Screens
             return false;
         }
 
+        public void CheckMissedNotes()
+        {
+            for (int i = _chart.Notes.Count - 1; i >= 0; i--)
+            {
+                if (_currentTime - _chart.Notes[i].HitTime > _hitWindows.Bad) // If note is past the bad window
+                {
+                   _scoreProcessor.ApplyJudgement(new JudgementResult
+                    {
+                        Judgement = Judgement.Miss,
+                        Lane = _chart.Notes[i].Lane
+                    });
+                    _chart.Notes.RemoveAt(i);
+                }
+
+            }
+        }
+
         public void Dispose()
         {
             _soundEngine.Dispose();
         }
+
+        // Switch to result Screem
 
     }
 }
