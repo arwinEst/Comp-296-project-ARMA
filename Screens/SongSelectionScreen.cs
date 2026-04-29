@@ -53,16 +53,17 @@ namespace Comp_296_project_ARMA.Screens
         }
 
         private List<ChartEntry> _charts;
-        //private DatabaseManager _databaseManager;
+        private DatabaseManager _databaseManager;
 
         public SongSelectionScreen(SpriteFont font, Texture2D background, 
             SpriteBatch spriteBatch, ScreenManager screenManager, 
-            GraphicsDevice graphicsDevice)
+            GraphicsDevice graphicsDevice, DatabaseManager databaseManager)
         {
             _font = font;
             _background = background;
             _spriteBatch = spriteBatch;
             _screenManager = screenManager;
+            _databaseManager = databaseManager;
             _graphicsDevice = graphicsDevice;
 
             //Load charts from database
@@ -113,14 +114,14 @@ namespace Comp_296_project_ARMA.Screens
             ChartEntry selected = _charts[_selectedIndex];
             Chart chart = ChartLoader.LoadChart(selected.FilePath);
             _screenManager.SetScreen(new GamePlayScreen(_font, _background, _spriteBatch,
-                _screenManager, _graphicsDevice));
+                _screenManager, _graphicsDevice, _databaseManager));
         }
 
         private void GoBack()
         {
             // Logic to return to the main menu
             // For example, you could switch back to the MainMenuScreen
-            _screenManager.SetScreen(new MainMenuScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice));
+            _screenManager.SetScreen(new MainMenuScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice, _databaseManager));
 
         }
 

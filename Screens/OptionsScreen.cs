@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Comp_296_project_ARMA;
+using Comp_296_project_ARMA.Data;
 
 namespace Comp_296_project_ARMA.Screens
 {
@@ -17,15 +18,17 @@ namespace Comp_296_project_ARMA.Screens
         private Texture2D _background;
         private SpriteBatch _spriteBatch;
         private GraphicsDevice _graphicsDevice;
+        private DatabaseManager _databaseManager;
 
         public OptionsScreen(SpriteFont font, Texture2D background, SpriteBatch spriteBatch,
-            ScreenManager screenManager, GraphicsDevice graphicsDevice)
+            ScreenManager screenManager, GraphicsDevice graphicsDevice, DatabaseManager databaseManager)
         {
             _font = font;
             _background = background;
             _spriteBatch = spriteBatch;
             _screenManager = screenManager;
             _graphicsDevice = graphicsDevice;
+            _databaseManager = databaseManager;
         }
 
         //Settings options
@@ -73,7 +76,7 @@ namespace Comp_296_project_ARMA.Screens
             // For simplicity, pressing Escape will return to the main menu
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
             {
-                _screenManager.SetScreen(new MainMenuScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice));
+                _screenManager.SetScreen(new MainMenuScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice, _databaseManager));
             }
         }
 
