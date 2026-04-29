@@ -11,36 +11,36 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Screens\\ResultScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Content\\Audio\\SoundEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\Audio\\SoundEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Data\\DatabaseManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\DatabaseManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Screens\\MainMenuScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Screens\\MainMenuScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Objects\\PlayFieldConstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Objects\\PlayFieldConstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Objects\\Playfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Objects\\Playfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Content\\Audio\\SoundEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Content\\Audio\\SoundEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Objects\\NoteRenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Objects\\NoteRenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Screens\\SongSelectionScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Screens\\SongSelectionScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Screens\\OptionsScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Screens\\OptionsScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Screens\\MainMenuScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Screens\\MainMenuScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Objects\\Playfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Objects\\Playfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Screens\\SongSelectionScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Screens\\SongSelectionScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Comp-296-project-ARMA\\Objects\\ScoreProcessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,19 +74,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SoundEngine.cs",
-              "DocumentMoniker": "C:\\Comp-296-project-ARMA\\Content\\Audio\\SoundEngine.cs",
-              "RelativeDocumentMoniker": "Content\\Audio\\SoundEngine.cs",
-              "ToolTip": "C:\\Comp-296-project-ARMA\\Content\\Audio\\SoundEngine.cs",
-              "RelativeToolTip": "Content\\Audio\\SoundEngine.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAjwE4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T04:15:21.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "PlayFieldConstants.cs",
               "DocumentMoniker": "C:\\Comp-296-project-ARMA\\Objects\\PlayFieldConstants.cs",
@@ -95,21 +82,7 @@
               "RelativeToolTip": "Objects\\PlayFieldConstants.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T03:53:13.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Playfield.cs",
-              "DocumentMoniker": "C:\\Comp-296-project-ARMA\\Objects\\Playfield.cs",
-              "RelativeDocumentMoniker": "Objects\\Playfield.cs",
-              "ToolTip": "C:\\Comp-296-project-ARMA\\Objects\\Playfield.cs",
-              "RelativeToolTip": "Objects\\Playfield.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T03:53:10.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T03:53:13.622Z"
             },
             {
               "$type": "Document",
@@ -121,18 +94,17 @@
               "RelativeToolTip": "Objects\\NoteRenderer.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T03:53:06.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T03:53:06.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "OptionsScreen.cs",
               "DocumentMoniker": "C:\\Comp-296-project-ARMA\\Screens\\OptionsScreen.cs",
               "RelativeDocumentMoniker": "Screens\\OptionsScreen.cs",
               "ToolTip": "C:\\Comp-296-project-ARMA\\Screens\\OptionsScreen.cs",
               "RelativeToolTip": "Screens\\OptionsScreen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAB4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T01:32:55.728Z"
             },
@@ -144,7 +116,7 @@
               "RelativeDocumentMoniker": "Screens\\GamePlayScreen.cs",
               "ToolTip": "C:\\Comp-296-project-ARMA\\Screens\\GamePlayScreen.cs",
               "RelativeToolTip": "Screens\\GamePlayScreen.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAjwKEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T04:45:52.845Z",
               "EditorCaption": ""
@@ -152,19 +124,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MainMenuScreen.cs",
+              "DocumentMoniker": "C:\\Comp-296-project-ARMA\\Screens\\MainMenuScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\MainMenuScreen.cs",
+              "ToolTip": "C:\\Comp-296-project-ARMA\\Screens\\MainMenuScreen.cs",
+              "RelativeToolTip": "Screens\\MainMenuScreen.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T05:39:49.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DatabaseManager.cs",
               "DocumentMoniker": "C:\\Comp-296-project-ARMA\\Data\\DatabaseManager.cs",
               "RelativeDocumentMoniker": "Data\\DatabaseManager.cs",
               "ToolTip": "C:\\Comp-296-project-ARMA\\Data\\DatabaseManager.cs",
               "RelativeToolTip": "Data\\DatabaseManager.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAMwG8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAMwG8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T04:55:07.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "SoundEngine.cs",
+              "DocumentMoniker": "C:\\Comp-296-project-ARMA\\Content\\Audio\\SoundEngine.cs",
+              "RelativeDocumentMoniker": "Content\\Audio\\SoundEngine.cs",
+              "ToolTip": "C:\\Comp-296-project-ARMA\\Content\\Audio\\SoundEngine.cs",
+              "RelativeToolTip": "Content\\Audio\\SoundEngine.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAjwE4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T04:15:21.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Playfield.cs",
+              "DocumentMoniker": "C:\\Comp-296-project-ARMA\\Objects\\Playfield.cs",
+              "RelativeDocumentMoniker": "Objects\\Playfield.cs",
+              "ToolTip": "C:\\Comp-296-project-ARMA\\Objects\\Playfield.cs",
+              "RelativeToolTip": "Objects\\Playfield.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T03:53:10.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SongSelectionScreen.cs",
               "DocumentMoniker": "C:\\Comp-296-project-ARMA\\Screens\\SongSelectionScreen.cs",
               "RelativeDocumentMoniker": "Screens\\SongSelectionScreen.cs",
@@ -172,8 +180,7 @@
               "RelativeToolTip": "Screens\\SongSelectionScreen.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAGkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T00:34:36.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T00:34:36.667Z"
             },
             {
               "$type": "Document",
@@ -186,18 +193,6 @@
               "ViewState": "AgIAAEUAAAAAAAAAAAAuwF4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T03:29:29.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainMenuScreen.cs",
-              "DocumentMoniker": "C:\\Comp-296-project-ARMA\\Screens\\MainMenuScreen.cs",
-              "RelativeDocumentMoniker": "Screens\\MainMenuScreen.cs",
-              "ToolTip": "C:\\Comp-296-project-ARMA\\Screens\\MainMenuScreen.cs",
-              "RelativeToolTip": "Screens\\MainMenuScreen.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAnwEkAAACSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T05:39:49.373Z"
             },
             {
               "$type": "Document",
@@ -259,7 +254,7 @@
         "Y": 527,
         "Width": 1551,
         "Height": 870,
-        "WindowState": 0
+        "WindowState": 2
       },
       "DocumentGroups": [
         {
@@ -274,7 +269,7 @@
               "RelativeDocumentMoniker": "Screens\\ResultScreen.cs",
               "ToolTip": "C:\\Comp-296-project-ARMA\\Screens\\ResultScreen.cs",
               "RelativeToolTip": "Screens\\ResultScreen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T03:35:54.066Z",
               "EditorCaption": ""

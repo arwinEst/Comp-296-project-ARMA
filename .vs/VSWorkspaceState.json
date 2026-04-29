@@ -3,14 +3,14 @@
     "",
     "\\bin",
     "\\bin\\Debug",
+    "\\bin\\Debug\\net9.0",
     "\\Content",
-    "\\Content\\Audio",
     "\\Content\\Charts",
     "\\Data",
     "\\Judgements",
     "\\Objects",
     "\\Screens"
   ],
-  "SelectedNode": "\\Screens\\MainMenuScreen.cs",
+  "SelectedNode": "\\bin\\Debug\\net9.0\\arma.db",
   "PreviewInSolutionExplorer": false
 }

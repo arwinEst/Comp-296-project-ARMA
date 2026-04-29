@@ -91,7 +91,8 @@ namespace Comp_296_project_ARMA.Screens
                 return;
             }
 
-            if (_soundEngine.CurrentTime >= _soundEngine.TotalTime || _activeNotes.Count == 0)
+
+            if (_soundEngine.CurrentTime >= _soundEngine.TotalTime || _chart.Notes.Count == 0)
             {
                 SaveAndExit();
                 return;
@@ -99,6 +100,8 @@ namespace Comp_296_project_ARMA.Screens
 
             CheckMissedNotes();
 
+           
+           
             _currentTime += gameTime.ElapsedGameTime.TotalMilliseconds;
 
             // Check which lanes are pressed
@@ -156,7 +159,7 @@ namespace Comp_296_project_ARMA.Screens
 
         private void SaveAndExit()
         {
-            
+            _screenManager.SetScreen(new ResultScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice, _databaseManager));
 
             // Save score to database
             _databaseManager.SaveScore(
@@ -173,7 +176,7 @@ namespace Comp_296_project_ARMA.Screens
                 _scoreProcessor.GetGrade()
             );
 
-            _screenManager.SetScreen(new ResultScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice, _databaseManager));
+            
         }
 
         bool TryHit(int lane)
