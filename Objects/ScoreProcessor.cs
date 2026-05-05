@@ -61,7 +61,7 @@ namespace Comp_296_project_ARMA.Objects
                     break;
                 case Judgements.Judgement.Bad:
                     Score += BadScore;
-                    Combo = 0;
+                    Combo++;
                     BadCount++;
                     _notesHit++;
                     break;
