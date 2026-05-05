@@ -51,8 +51,8 @@ namespace Comp_296_project_ARMA
         {
             // TODO: Add your initialization logic here
             // Setup default resolution
-            _graphics.PreferredBackBufferWidth = 1920;
-            _graphics.PreferredBackBufferHeight = 1080;
+            _graphics.PreferredBackBufferWidth = 2560;
+            _graphics.PreferredBackBufferHeight = 1440;
 
             // Runs game in full screen
             _graphics.IsFullScreen = true;

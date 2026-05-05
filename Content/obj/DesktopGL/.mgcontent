@@ -4,9 +4,9 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/comp-269/Comp-296 project ARMA/Content/background.jpg</File>
-    <File>C:/comp-269/Comp-296 project ARMA/Content/File.spritefont</File>
-    <File>C:/comp-269/Comp-296 project ARMA/Content/font.spritefont</File>
+    <File>C:/Comp-296-project-ARMA/Content/background.jpg</File>
+    <File>C:/Comp-296-project-ARMA/Content/File.spritefont</File>
+    <File>C:/Comp-296-project-ARMA/Content/font.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

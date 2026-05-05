@@ -1,2 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/comp-269/Comp-296 project ARMA/Content/background.jpg","C:/comp-269/Comp-296 project ARMA/Content/bin/DesktopGL/background.xnb","TextureProcessor","Texture2DContent",361011,8294485,0.2743886
+"C:/Comp-296-project-ARMA/Content/background.jpg","C:/Comp-296-project-ARMA/Content/bin/DesktopGL/background.xnb","TextureProcessor","Texture2DContent",361011,8294485,0.1725266
+"C:/Comp-296-project-ARMA/Content/File.spritefont","C:/Comp-296-project-ARMA/Content/bin/DesktopGL/File.xnb","FontDescriptionProcessor","SpriteFontContent",2007,21529,0.042946
+"C:/Comp-296-project-ARMA/Content/font.spritefont","C:/Comp-296-project-ARMA/Content/bin/DesktopGL/font.xnb","FontDescriptionProcessor","SpriteFontContent",2008,37913,0.0080034

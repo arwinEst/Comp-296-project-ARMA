@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Comp-296-project-ARMA/Content/font.spritefont</SourceFile>
-  <SourceTime>2026-04-01T05:21:41-04:00</SourceTime>
+  <SourceTime>2026-05-04T19:54:01.4400171-04:00</SourceTime>
   <DestFile>C:/Comp-296-project-ARMA/Content/bin/DesktopGL/Content/font.xnb</DestFile>
-  <DestTime>2026-04-08T00:39:54.1636386-04:00</DestTime>
+  <DestTime>2026-05-04T19:55:18.6357141-04:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2025-10-20T10:25:32-04:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
