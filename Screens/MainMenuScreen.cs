@@ -82,7 +82,10 @@ namespace Comp_296_project_ARMA.Screens
     public void Draw(SpriteBatch spriteBatch)
     {
         //Draw background
-        spriteBatch.Draw(_background, Vector2.Zero, Color.White);
+        spriteBatch.Draw(_background, new Rectangle
+                (0, 0, _graphicsDevice.Viewport.Width,
+                _graphicsDevice.Viewport.Height),
+                Color.White);
 
         //Draw title items
         spriteBatch.DrawString(_font, "Arma", new Vector2(100, 50), Color.White);
