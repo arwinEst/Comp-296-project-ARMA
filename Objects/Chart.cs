@@ -11,6 +11,7 @@ namespace Comp_296_project_ARMA.Objects
         public string Title { get; set; }
         public string Artist { get; set; }
         public string AudioFile { get; set; }
+        public string Background { get; set; }
         public double BPM { get; set; }
         public double Offset { get; set; }
         public List<NoteObject> Notes { get; set; } = new List<NoteObject>();
