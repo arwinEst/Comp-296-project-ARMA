@@ -82,7 +82,10 @@ namespace Comp_296_project_ARMA.Screens
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(_background, Vector2.Zero, Color.White);
+            spriteBatch.Draw(_background, new Rectangle
+                (0, 0, _graphicsDevice.Viewport.Width,
+                _graphicsDevice.Viewport.Height),
+                Color.White);
 
             // Draw the options menu
             for (int i = 0; i < _options.Count; i++)
