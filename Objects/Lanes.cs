@@ -32,10 +32,10 @@ namespace Comp_296_project_ARMA.Objects
             // Set up the rectangles for drawing
             _lanesRect = new Rectangle(
                 (int)XPosition, 0,
-                (int)Width, 1080); // Full height of the screen
+                (int)Width, 1440); // Full height of the screen
 
             _receptorRect = new Rectangle(
-                (int)XPosition, 900,
+                (int)XPosition, 1260,
                 (int)Width, 20); // Position the receptor near the bottom
         }
 
@@ -50,7 +50,7 @@ namespace Comp_296_project_ARMA.Objects
 
             // Draw the lane border           
             spriteBatch.Draw(_laneTexture, 
-                new Rectangle ((int)XPosition, 0, 2, 1080),
+                new Rectangle ((int)XPosition, 0, 2, 1440),
                 new Color(80, 80, 80));
 
             // Receptor changes color when pressed
