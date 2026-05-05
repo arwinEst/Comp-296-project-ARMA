@@ -10,6 +10,7 @@ using Comp_296_project_ARMA.Objects;
 using Comp_296_project_ARMA.Audio;
 using Comp_296_project_ARMA.Judgements;
 using Comp_296_project_ARMA.Data;
+using System.IO;
 
 namespace Comp_296_project_ARMA.Screens
 {
@@ -20,16 +21,17 @@ namespace Comp_296_project_ARMA.Screens
         private SpriteBatch _spriteBatch;
         private ScreenManager _screenManager;
         private Texture2D _background;
+        private Texture2D _songBackground;
         private GraphicsDevice _graphicsDevice;
         private Playfield _playfield;
         private KeyboardState _currentState;
         private KeyboardState _previousState;
 
         private NoteRenderer _noteRenderer;
-        private double _currentTime = 0;
+        private double _currentTime = -3000;
         private double _startDelay = 3000;
-        private bool _started = false;
         private double _timer = 0;
+        private bool _started = false;
         private Chart _chart;
 
         public ScoreProcessor _scoreProcessor;
@@ -55,7 +57,15 @@ namespace Comp_296_project_ARMA.Screens
 
             _chart = ChartLoader.LoadChart("C:\\Comp-296-project-ARMA\\Content\\Charts\\chart1.json");
 
-            _noteRenderer = new NoteRenderer(graphicsDevice, _chart.Notes);
+            // Load song background
+            string bgPath = Path.Combine("C:\\Comp-296-project-ARMA\\Content\\Charts\\", _chart.Background);
+            using(var stream = new FileStream(bgPath, FileMode.Open))
+            {
+                _songBackground = Texture2D.FromStream(graphicsDevice, stream);
+            }
+            
+            _activeNotes = new List<NoteObject>(_chart.Notes);
+            _noteRenderer = new NoteRenderer(graphicsDevice, _activeNotes);
 
             // Initialize the sound engine and load the song
             _soundEngine = new SoundEngine();
@@ -65,14 +75,7 @@ namespace Comp_296_project_ARMA.Screens
             // Initialize score processor and hit windows
             _hitWindows = new HitWindowSet(20, 40, 60, 80, 120);
             _scoreProcessor = new ScoreProcessor(_chart.Notes.Count);
-            _activeNotes = new List<NoteObject>(_chart.Notes);
             _databaseManager = databaseManager;
-        }
-
-
-        public void Load()
-        {
-
         }
 
         public void Update(GameTime gameTime)
@@ -80,6 +83,7 @@ namespace Comp_296_project_ARMA.Screens
             _previousState = _currentState;
             _currentState = Keyboard.GetState();
 
+            _currentTime += gameTime.ElapsedGameTime.TotalMilliseconds;
 
             //Delay the start of the song
             if (!_started)
@@ -93,43 +97,43 @@ namespace Comp_296_project_ARMA.Screens
                 }
                 return;
             }
+            
 
 
-            if (_soundEngine.CurrentTime >= _soundEngine.TotalTime || _chart.Notes.Count == 0)
+
+            CheckMissedNotes();
+
+            if (_started && _soundEngine.CurrentTime >= _soundEngine.TotalTime)
             {
                 SaveAndExit();
                 return;
             }
 
-            CheckMissedNotes();
-
-           
-           
-            _currentTime += gameTime.ElapsedGameTime.TotalMilliseconds;
+            
 
             // Check which lanes are pressed
             for (int lane = 0; lane < 4; lane++)
             {
-                    Keys key = lane switch
-                    {
-                        0 => Keys.A,
-                        1 => Keys.S,
-                        2 => Keys.K,
-                        3 => Keys.L,
-                        _ => Keys.A
-                    };
-                    bool keyDown = _currentState.IsKeyDown(key);
-                    bool isPressed = keyDown && !_previousState.IsKeyDown(key);
-                    bool isReleased = !keyDown && _previousState.IsKeyDown(key);
+                Keys key = lane switch
+                {
+                0 => Keys.A,
+                1 => Keys.S,
+                2 => Keys.K,
+                 3 => Keys.L,
+                _ => Keys.A
+                };
+                bool keyDown = _currentState.IsKeyDown(key);
+                bool isPressed = keyDown && !_previousState.IsKeyDown(key);
+                bool isReleased = !keyDown && _previousState.IsKeyDown(key);
 
-                    if (isPressed)
-                    {
-                        TryHit(lane);
-                    }
+                if (isPressed)
+                {
+                    TryHit(lane);
+                }
 
-                    if (keyDown && _holdingNote[lane])
-                    {
-                        if (_currentTime >= _activeHolds[lane].HoldEndTime)
+                if (keyDown && _holdingNote[lane])
+                {
+                    if (_currentTime >= _activeHolds[lane].HoldEndTime)
                     {
                         // Successfull completed hold note
                         _scoreProcessor.ApplyJudgement(new JudgementResult
@@ -140,21 +144,34 @@ namespace Comp_296_project_ARMA.Screens
                         _activeHoldNotes.Remove(_activeHolds[lane]);
                         _holdingNote[lane] = false;
                         _activeHolds[lane] = null;
-                        }
                     }
+                }
 
-                    // If the key is released while holding a note, apply judgement for the hold note
-                    if (isReleased && _holdingNote[lane])
+                if (isReleased && _holdingNote[lane])
                 {
+                    double timeLeft = _activeHolds[lane].HoldEndTime - _currentTime;
+                    if (timeLeft <= 100) // If we're within 100ms of the hold note ending, apply judgement for the hold note
+                    {
+                    // Successfull completed hold note
                     _scoreProcessor.ApplyJudgement(new JudgementResult
                     {
-                        Judgement = Judgement.Miss,
+                        Judgement = _hitWindows.GetJudgement(timeLeft),
                         Lane = lane
                     });
+                    }
+                    else
+                    {
+                        // Released too early, apply judgement for the hold note
+                        _scoreProcessor.ApplyJudgement(new JudgementResult
+                        {
+                            Judgement = Judgement.Miss,
+                            Lane = lane
+                            });
+                    }
                     _activeHoldNotes.Remove(_activeHolds[lane]);
                     _holdingNote[lane] = false;
                     _activeHolds[lane] = null;
-                    }
+                }
             }
 
             _lanePressed[0] = _currentState.IsKeyDown(Keys.A);
@@ -168,6 +185,12 @@ namespace Comp_296_project_ARMA.Screens
 
         public void Draw(SpriteBatch spriteBatch)
         {
+            spriteBatch.Draw(_songBackground, 
+                new Rectangle
+                (0, 0, _graphicsDevice.Viewport.Width,
+                _graphicsDevice.Viewport.Height), 
+                Color.White);
+           
             _playfield.Draw(spriteBatch);
             _noteRenderer.Draw(spriteBatch, _currentTime, _activeHoldNotes);
 
@@ -193,7 +216,7 @@ namespace Comp_296_project_ARMA.Screens
                 };
 
                 spriteBatch.DrawString(_font, _lastJudgement.Judgement.ToString(),
-                    new Vector2(900 , 500), judgementColor);
+                    new Vector2(1230 , 500), judgementColor);
             }
         }
 
@@ -205,7 +228,7 @@ namespace Comp_296_project_ARMA.Screens
             _databaseManager.SaveScore(
                 _chart.Title,
                 _scoreProcessor.Score,
-                _scoreProcessor.Combo,
+                _scoreProcessor.MaxCombo,
                 _scoreProcessor.Accuracy,
                 _scoreProcessor.MarvelousCount,
                 _scoreProcessor.PerfectCount,   
@@ -222,10 +245,10 @@ namespace Comp_296_project_ARMA.Screens
         bool TryHit(int lane)
         {
 
-            for (int i = 0; i < _chart.Notes.Count; i++)
+            for (int i = 0; i < _activeNotes.Count; i++)
             {
 
-                var note = _chart.Notes[i];
+                var note = _activeNotes[i];
                 if (note.Lane != lane) continue;
 
                     double timeDiff = note.HitTime - _currentTime;
@@ -252,7 +275,7 @@ namespace Comp_296_project_ARMA.Screens
                         {
                             _scoreProcessor.ApplyJudgement(_lastJudgement);
                         }
-                        _chart.Notes.RemoveAt(i);
+                        _activeNotes.RemoveAt(i);
                         return true;
                     }
                 
@@ -262,9 +285,11 @@ namespace Comp_296_project_ARMA.Screens
 
         public void CheckMissedNotes()
         {
-            for (int i = _chart.Notes.Count - 1; i >= 0; i--)
+            if(!_started) return;
+
+            for (int i = _activeNotes.Count - 1; i >= 0; i--)
             {
-                var note = _chart.Notes[i];
+                var note = _activeNotes[i];
                 if (_currentTime - note.HitTime > _hitWindows.Bad)
                 {
                    _scoreProcessor.ApplyJudgement(new JudgementResult
@@ -272,7 +297,7 @@ namespace Comp_296_project_ARMA.Screens
                         Judgement = Judgements.Judgement.Miss,
                         Lane = note.Lane
                     });
-                    _chart.Notes.RemoveAt(i);
+                    _activeNotes.RemoveAt(i);
                 }
 
             }
