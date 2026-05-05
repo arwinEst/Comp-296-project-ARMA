@@ -55,7 +55,7 @@ namespace Comp_296_project_ARMA.Screens
         private List<ChartEntry> _charts;
         private DatabaseManager _databaseManager;
 
-        public SongSelectionScreen(SpriteFont font, Texture2D background, 
+        public SongSelectionScreen(SpriteFont font, Texture2D background,
             SpriteBatch spriteBatch, ScreenManager screenManager, 
             GraphicsDevice graphicsDevice, DatabaseManager databaseManager)
         {
@@ -128,7 +128,10 @@ namespace Comp_296_project_ARMA.Screens
         public void Draw(SpriteBatch spriteBatch)
         {
             // Draw the song selection UI here
-            spriteBatch.Draw(_background, Vector2.Zero, Color.White);
+            spriteBatch.Draw(_background, new Rectangle
+                (0, 0, _graphicsDevice.Viewport.Width,
+                _graphicsDevice.Viewport.Height),
+                Color.White);
 
             spriteBatch.DrawString(_font, "Song Select:", new Vector2(100, 100), Color.White);
 
