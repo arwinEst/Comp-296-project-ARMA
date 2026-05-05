@@ -39,6 +39,9 @@ namespace Comp_296_project_ARMA.Screens
         private DatabaseManager _databaseManager;
 
         private bool [] _lanePressed = new bool[4];
+        private bool[] _holdingNote = new bool[4];
+        private NoteObject[] _activeHolds = new NoteObject[4];
+        private List<NoteObject> _activeHoldNotes = new List<NoteObject>();
 
         public GamePlayScreen(SpriteFont font, Texture2D background, SpriteBatch spriteBatch, ScreenManager screenManager,
             GraphicsDevice graphicsDevice, DatabaseManager databaseManager)
@@ -105,22 +108,59 @@ namespace Comp_296_project_ARMA.Screens
             _currentTime += gameTime.ElapsedGameTime.TotalMilliseconds;
 
             // Check which lanes are pressed
-            bool aPressed = _currentState.IsKeyDown(Keys.A);
-            bool sPressed = _currentState.IsKeyDown(Keys.S);
-            bool kPressed = _currentState.IsKeyDown(Keys.K);
-            bool lPressed = _currentState.IsKeyDown(Keys.L);
+            for (int lane = 0; lane < 4; lane++)
+            {
+                    Keys key = lane switch
+                    {
+                        0 => Keys.A,
+                        1 => Keys.S,
+                        2 => Keys.K,
+                        3 => Keys.L,
+                        _ => Keys.A
+                    };
+                    bool keyDown = _currentState.IsKeyDown(key);
+                    bool isPressed = keyDown && !_previousState.IsKeyDown(key);
+                    bool isReleased = !keyDown && _previousState.IsKeyDown(key);
 
-            _lanePressed[0] = aPressed;
-            _lanePressed[1] = sPressed;
-            _lanePressed[2] = kPressed;
-            _lanePressed[3] = lPressed;
+                    if (isPressed)
+                    {
+                        TryHit(lane);
+                    }
 
-            if (aPressed && !_previousState.IsKeyDown(Keys.A)) TryHit(0);
-            if (sPressed && !_previousState.IsKeyDown(Keys.S)) TryHit(1);
-            if (kPressed && !_previousState.IsKeyDown(Keys.K)) TryHit(2);
-            if (lPressed && !_previousState.IsKeyDown(Keys.L)) TryHit(3);
+                    if (keyDown && _holdingNote[lane])
+                    {
+                        if (_currentTime >= _activeHolds[lane].HoldEndTime)
+                    {
+                        // Successfull completed hold note
+                        _scoreProcessor.ApplyJudgement(new JudgementResult
+                        {
+                            Judgement = _hitWindows.GetJudgement(0),
+                            Lane = lane
+                        });
+                        _activeHoldNotes.Remove(_activeHolds[lane]);
+                        _holdingNote[lane] = false;
+                        _activeHolds[lane] = null;
+                        }
+                    }
 
+                    // If the key is released while holding a note, apply judgement for the hold note
+                    if (isReleased && _holdingNote[lane])
+                {
+                    _scoreProcessor.ApplyJudgement(new JudgementResult
+                    {
+                        Judgement = Judgement.Miss,
+                        Lane = lane
+                    });
+                    _activeHoldNotes.Remove(_activeHolds[lane]);
+                    _holdingNote[lane] = false;
+                    _activeHolds[lane] = null;
+                    }
+            }
 
+            _lanePressed[0] = _currentState.IsKeyDown(Keys.A);
+            _lanePressed[1] = _currentState.IsKeyDown(Keys.S);
+            _lanePressed[2] = _currentState.IsKeyDown(Keys.K);
+            _lanePressed[3] = _currentState.IsKeyDown(Keys.L);
 
             _playfield.Update(_lanePressed);
 
@@ -129,7 +169,7 @@ namespace Comp_296_project_ARMA.Screens
         public void Draw(SpriteBatch spriteBatch)
         {
             _playfield.Draw(spriteBatch);
-            _noteRenderer.Draw(spriteBatch, _currentTime);
+            _noteRenderer.Draw(spriteBatch, _currentTime, _activeHoldNotes);
 
             // Score Display
             spriteBatch.DrawString(_font, $"Score: {_scoreProcessor.Score}", new Vector2(50, 50), Color.White);
@@ -143,7 +183,7 @@ namespace Comp_296_project_ARMA.Screens
             {
                 Color judgementColor = _lastJudgement.Judgement switch
                 {
-                    Judgements.Judgement.Marvelous => Color.Magenta,
+                    Judgements.Judgement.Marvelous => Color.Purple,
                     Judgements.Judgement.Perfect => Color.Green,
                     Judgements.Judgement.Great => Color.Blue,
                     Judgements.Judgement.Good => Color.Yellow,
@@ -153,7 +193,7 @@ namespace Comp_296_project_ARMA.Screens
                 };
 
                 spriteBatch.DrawString(_font, _lastJudgement.Judgement.ToString(),
-                    new Vector2(800, 500), judgementColor);
+                    new Vector2(900 , 500), judgementColor);
             }
         }
 
@@ -186,8 +226,8 @@ namespace Comp_296_project_ARMA.Screens
             {
 
                 var note = _chart.Notes[i];
-                if (note.Lane == lane)
-                {
+                if (note.Lane != lane) continue;
+
                     double timeDiff = note.HitTime - _currentTime;
                     if (Math.Abs(timeDiff) <= _hitWindows.Bad) // 150ms hit window
                     {
@@ -201,11 +241,21 @@ namespace Comp_296_project_ARMA.Screens
                             Lane = lane
                         };
 
-                        _scoreProcessor.ApplyJudgement(_lastJudgement);
+                        if (note.IsHold)
+                        {
+                            _holdingNote[lane] = true;
+                            _activeHolds[lane] = note;
+                            _activeHoldNotes.Add(note); 
+                            _scoreProcessor.ApplyJudgement(_lastJudgement); // Apply initial judgement for hold note
+                        }
+                        else
+                        {
+                            _scoreProcessor.ApplyJudgement(_lastJudgement);
+                        }
                         _chart.Notes.RemoveAt(i);
                         return true;
                     }
-                }
+                
             }
             return false;
         }
@@ -214,12 +264,13 @@ namespace Comp_296_project_ARMA.Screens
         {
             for (int i = _chart.Notes.Count - 1; i >= 0; i--)
             {
-                if (_currentTime - _chart.Notes[i].HitTime > _hitWindows.Bad) // If note is past the bad window
+                var note = _chart.Notes[i];
+                if (_currentTime - note.HitTime > _hitWindows.Bad)
                 {
                    _scoreProcessor.ApplyJudgement(new JudgementResult
                     {
-                        Judgement = Judgement.Miss,
-                        Lane = _chart.Notes[i].Lane
+                        Judgement = Judgements.Judgement.Miss,
+                        Lane = note.Lane
                     });
                     _chart.Notes.RemoveAt(i);
                 }
