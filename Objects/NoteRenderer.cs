@@ -10,7 +10,7 @@ namespace Comp_296_project_ARMA.Objects
     {
         private Texture2D _noteTexture;
         private List<NoteObject> _notes;
-        private float _scrollSpeed = 1.5f; // Adjust as needed
+        private float _scrollSpeed = 2.5f; // Adjust as needed
 
         public NoteRenderer(GraphicsDevice graphicsDevice, List<NoteObject> notes)
         {
@@ -67,14 +67,18 @@ namespace Comp_296_project_ARMA.Objects
                     // Draw unstarted hold notes normally
                     DrawHoldNote(spriteBatch, note, _noteXPosition, _noteYPosition, _noteColor, _currentTime);
                 }
-
-                Rectangle noteRect = new Rectangle(
-                    (int)_noteXPosition + 2,
-                    (int)_noteYPosition,
-                    PlayFieldConstants.LaneWidth - 4,
-                    PlayFieldConstants.NoteHeight
-                );
-                spriteBatch.Draw(_noteTexture, noteRect, _noteColor);
+                else
+                {
+                    // Draw regular notes
+                    Rectangle noteRect = new Rectangle(
+                        (int)_noteXPosition + 2,
+                        (int)_noteYPosition,
+                        PlayFieldConstants.LaneWidth - 4,
+                        PlayFieldConstants.NoteHeight
+                    );
+                    spriteBatch.Draw(_noteTexture, noteRect, _noteColor);
+                }
+                
             }
 
 
