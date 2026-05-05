@@ -29,7 +29,7 @@ namespace Comp_296_project_ARMA.Objects
             _receptorTexture.SetData(new[] { Color.White});
 
             // Center the playfield on the screen
-            _startX = (1920 - (_laneWidth * _numLanes)) / 2f;
+            _startX = (2560 - (_laneWidth * _numLanes)) / 2f;
             
             _lanes = new Lanes[_numLanes];
 
