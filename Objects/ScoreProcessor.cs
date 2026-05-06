@@ -78,7 +78,9 @@ namespace Comp_296_project_ARMA.Objects
 
         public void UpdateAccuarcy()
         {
-            if (_totalNotes == 0) return; // Avoid division by zero
+            int _totalHits = MarvelousCount + PerfectCount + GreatCount + GoodCount + BadCount + MissCount;
+
+            if (_totalHits == 0) return; // Avoid division by zero
 
             double points =
                 (MarvelousCount * MarvelousScore) +
@@ -88,8 +90,8 @@ namespace Comp_296_project_ARMA.Objects
                 (BadCount * BadScore) +
                 (MissCount * MissScore);
 
-            double maxPoints = _totalNotes * MarvelousScore; // Max points if all notes were Marvelous
-            Accuracy = (points / maxPoints) * 100;
+            double maxPoints = _totalHits * MarvelousScore; // Max points if all notes were Marvelous
+            Accuracy = Math.Round((points / maxPoints) * 100.0, 2);
         }
 
         public string GetGrade()
