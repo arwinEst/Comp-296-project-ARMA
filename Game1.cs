@@ -56,7 +56,7 @@ namespace Comp_296_project_ARMA
             _graphics.PreferredBackBufferHeight = 1440;
 
             // Runs game in full screen
-            _graphics.IsFullScreen = true;
+            _graphics.IsFullScreen = false;
             _graphics.ApplyChanges();
             base.Initialize();
         }
