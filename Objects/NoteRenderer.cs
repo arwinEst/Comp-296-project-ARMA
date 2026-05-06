@@ -10,7 +10,7 @@ namespace Comp_296_project_ARMA.Objects
     {
         private Texture2D _noteTexture;
         private List<NoteObject> _notes;
-        private float _scrollSpeed = 2.5f; // Adjust as needed
+        private float _scrollSpeed = 2.2f; // Adjust as needed
 
         public NoteRenderer(GraphicsDevice graphicsDevice, List<NoteObject> notes)
         {
