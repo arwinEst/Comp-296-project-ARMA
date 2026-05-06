@@ -45,6 +45,9 @@ namespace Comp_296_project_ARMA.Screens
         private NoteObject[] _activeHolds = new NoteObject[4];
         private List<NoteObject> _activeHoldNotes = new List<NoteObject>();
 
+        private double _endTimer = 0;
+        private bool _songEnding = false;
+
         public GamePlayScreen(SpriteFont font, Texture2D background, SpriteBatch spriteBatch, ScreenManager screenManager,
             GraphicsDevice graphicsDevice, DatabaseManager databaseManager)
         {
@@ -98,15 +101,22 @@ namespace Comp_296_project_ARMA.Screens
                 return;
             }
             
-
-
-
             CheckMissedNotes();
 
-            if (_started && _soundEngine.CurrentTime >= _soundEngine.TotalTime)
+            if (_started && _activeNotes.Count == 0 && _activeHoldNotes.Count == 0
+                && _soundEngine.CurrentTime > 1000)
             {
-                SaveAndExit();
-                return;
+                _songEnding = true;
+            }
+
+            if (_songEnding)
+            {
+                _endTimer += gameTime.ElapsedGameTime.TotalMilliseconds;
+                if (_endTimer >= 3000)
+                {
+                    SaveAndExit();
+                    return;
+                }
             }
 
             
@@ -119,7 +129,7 @@ namespace Comp_296_project_ARMA.Screens
                 0 => Keys.A,
                 1 => Keys.S,
                 2 => Keys.K,
-                 3 => Keys.L,
+                3 => Keys.L,
                 _ => Keys.A
                 };
                 bool keyDown = _currentState.IsKeyDown(key);
@@ -222,10 +232,11 @@ namespace Comp_296_project_ARMA.Screens
 
         private void SaveAndExit()
         {
-            _screenManager.SetScreen(new ResultScreen(_font, _background, _spriteBatch, _screenManager, _graphicsDevice, _databaseManager));
+            _soundEngine.Stop();
+            _soundEngine.Dispose();
 
             // Save score to database
-            _databaseManager.SaveScore(
+            int scoreId = _databaseManager.SaveScore(
                 _chart.Title,
                 _scoreProcessor.Score,
                 _scoreProcessor.MaxCombo,
@@ -239,7 +250,10 @@ namespace Comp_296_project_ARMA.Screens
                 _scoreProcessor.GetGrade()
             );
 
-            
+            // Switch to result screen
+            _screenManager.SetScreen(new ResultScreen(
+                _font, _background, _spriteBatch,
+                _screenManager, _graphicsDevice, _databaseManager, scoreId));
         }
 
         bool TryHit(int lane)
