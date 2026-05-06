@@ -17,7 +17,7 @@ namespace Comp_296_project_ARMA.Audio
             {
                 if (_audioFileReader != null)
                 {
-                    return _audioFileReader.CurrentTime.TotalSeconds;
+                    return _audioFileReader.CurrentTime.TotalMilliseconds;
                 }
                 return 0;
             }
@@ -30,7 +30,7 @@ namespace Comp_296_project_ARMA.Audio
             {
                 if (_audioFileReader != null)
                 {
-                    return _audioFileReader.TotalTime.TotalSeconds;
+                    return _audioFileReader.TotalTime.TotalMilliseconds;
                 }
                 return 0;
             }
@@ -42,10 +42,10 @@ namespace Comp_296_project_ARMA.Audio
             _audioFileReader?.Dispose();
             _waveOut?.Dispose();
 
-
             _audioFileReader = new AudioFileReader(filePath);
             _waveOut = new WaveOutEvent();
             _waveOut.Init(_audioFileReader);
+            _waveOut.PlaybackStopped += (s, e) => IsPlaying = false;
         }
 
         public void Play()
@@ -75,7 +75,6 @@ namespace Comp_296_project_ARMA.Audio
                 _waveOut.Stop();
                 IsPlaying = false;
             }
-            return;
             if (_audioFileReader != null)
             {
                 _audioFileReader.Position = 0;

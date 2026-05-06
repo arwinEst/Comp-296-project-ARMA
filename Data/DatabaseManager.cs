@@ -1,6 +1,7 @@
 ﻿using Comp_296_project_ARMA.Objects;
 using Microsoft.Data.Sqlite;
 using System;
+using System.ComponentModel.Design;
 using System.Runtime.CompilerServices;
 
 namespace Comp_296_project_ARMA.Data
@@ -34,15 +35,16 @@ namespace Comp_296_project_ARMA.Data
                     Id INTEGER PRIMARY KEY AUTOINCREMENT,
                     songName TEXT NOT NULL,
                     score INTEGER NOT NULL,
-                    combo INTEGER NOT NULL,
-                    accuracy REAL NOT NULL,
+                    maxCombo INTEGER NOT NULL,
+                    accuracy DOUBLE NOT NULL,
                     marvelousCount INTEGER NOT NULL,
                     perfectCount INTEGER NOT NULL,
                     greatCount INTEGER NOT NULL,
                     goodCount INTEGER NOT NULL,
                     badCount INTEGER NOT NULL,
                     missCount INTEGER NOT NULL,
-                    getGrade TEXT
+                    getGrade TEXT,
+                    datePlayed DATETIME
                 )";
             using (var command = new SqliteCommand(createScoresTable, connection))
                 command.ExecuteNonQuery();
@@ -85,7 +87,7 @@ namespace Comp_296_project_ARMA.Data
 
         }
 
-        public void SaveScore(string songName, int score, int combo, double accuracy, int marvelousCount,
+        public int SaveScore(string songName, int score, int combo, double accuracy, int marvelousCount,
             int perfectCount, int greatCount, int goodCount, int badCount, int missCount, string getGrade)
         {
             var connection = new SqliteConnection("Data Source = arma.db");
@@ -93,14 +95,14 @@ namespace Comp_296_project_ARMA.Data
             connection.Open();
 
             string insertQuery = @"
-                    INSERT INTO Scores (songName, score, combo, accuracy, marvelousCount, perfectCount, greatCount, goodCount, badCount, missCount, getGrade)
-                    VALUES (@songName, @score, @combo, @accuracy, @marvelousCount, @perfectCount, @greatCount, @goodCount, @badCount, @missCount, @getGrade)";
-
+                    INSERT INTO Scores (SongName, Score, MaxCombo, Accuracy, MarvelousCount, PerfectCount, GreatCount, GoodCount, BadCount, MissCount, GetGrade, DatePlayed)
+                    VALUES (@songName, @score, @maxCombo, @accuracy, @marvelousCount, @perfectCount, @greatCount, @goodCount, @badCount, @missCount, @getGrade, @datePlayed);
+                    SELECT last_insert_rowid();";
             using (var command = new SqliteCommand(insertQuery, connection))
             {
                 command.Parameters.AddWithValue("@songName", songName);
                 command.Parameters.AddWithValue("@score", score);
-                command.Parameters.AddWithValue("@combo", combo);
+                command.Parameters.AddWithValue("@maxCombo", combo);
                 command.Parameters.AddWithValue("@accuracy", accuracy);
                 command.Parameters.AddWithValue("@marvelousCount", marvelousCount);
                 command.Parameters.AddWithValue("@perfectCount", perfectCount);
@@ -109,9 +111,49 @@ namespace Comp_296_project_ARMA.Data
                 command.Parameters.AddWithValue("@badCount", badCount);
                 command.Parameters.AddWithValue("@missCount", missCount);
                 command.Parameters.AddWithValue("@getGrade", getGrade);
-                command.ExecuteNonQuery();
+                command.Parameters.AddWithValue("@datePlayed", DateTime.Now.ToString());
+
+                return Convert.ToInt32(command.ExecuteScalar());
             }
         }
+
+        public ScoreEntry GetScore(int id)
+        {
+            using (var connection = new SqliteConnection("Data Source = arma.db"))
+            {
+                connection.Open();
+                string query = "SELECT * FROM Scores WHERE Id = @Id";
+
+                using (var command = new SqliteCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Id", id);
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            return new ScoreEntry
+                            {
+                                Id = reader.GetInt32(0),
+                                SongName = reader.GetString(1),
+                                Score = reader.GetInt32(2),
+                                MaxCombo = reader.GetInt32(3),
+                                Accuracy = reader.GetDouble(4),
+                                MarvelousCount = reader.GetInt32(5),
+                                PerfectCount = reader.GetInt32(6),
+                                GreatCount = reader.GetInt32(7),
+                                GoodCount = reader.GetInt32(8),
+                                BadCount = reader.GetInt32(9),
+                                MissCount = reader.GetInt32(10),
+                                Grade = reader.GetString(11),
+                                DatePlayed = reader.GetString(12)
+                            };
+                        }
+                    }
+                }
+            }
+            return null;
+        }
+
     }
 
 }

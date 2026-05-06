@@ -48,6 +48,9 @@ namespace Comp_296_project_ARMA
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            // Disable fixed time step to allow for variable frame rates
+            IsFixedTimeStep = false;
+
             // Setup default resolution
             _graphics.PreferredBackBufferWidth = 2560;
             _graphics.PreferredBackBufferHeight = 1440;

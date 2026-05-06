@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Comp-296 project ARMA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a979caae4d14baeba71b9722bc1dcd86d467e32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1fce56548d7588ec1110acca68055a062c73792")]
 [assembly: System.Reflection.AssemblyProductAttribute("Comp-296 project ARMA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Comp-296 project ARMA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
