@@ -8,6 +8,7 @@ namespace Comp_296_project_ARMA.Objects
 {
     public class Chart
     {
+        public int ChartId { get; set; }
         public string Title { get; set; }
         public string Artist { get; set; }
         public string AudioFile { get; set; }
