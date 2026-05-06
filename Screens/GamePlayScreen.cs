@@ -59,6 +59,7 @@ namespace Comp_296_project_ARMA.Screens
             _playfield = new Playfield(graphicsDevice);
 
             _chart = ChartLoader.LoadChart("C:\\Comp-296-project-ARMA\\Content\\Charts\\chart1.json");
+            
 
             // Load song background
             string bgPath = Path.Combine("C:\\Comp-296-project-ARMA\\Content\\Charts\\", _chart.Background);
@@ -79,6 +80,10 @@ namespace Comp_296_project_ARMA.Screens
             _hitWindows = new HitWindowSet(20, 40, 60, 80, 120);
             _scoreProcessor = new ScoreProcessor(_chart.Notes.Count);
             _databaseManager = databaseManager;
+
+            // Register chart in database and get the assigned ID
+            int dbId = _databaseManager.RegisterChart(_chart, "C:\\Comp-296-project-ARMA\\Content\\Charts\\chart1.json");
+            _chart.ChartId = dbId; // ensure in-memory chart uses DB primary key
         }
 
         public void Update(GameTime gameTime)
@@ -237,6 +242,7 @@ namespace Comp_296_project_ARMA.Screens
 
             // Save score to database
             int scoreId = _databaseManager.SaveScore(
+                _chart.ChartId, // or another appropriate chartId value
                 _chart.Title,
                 _scoreProcessor.Score,
                 _scoreProcessor.MaxCombo,
