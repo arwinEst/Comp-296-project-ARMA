@@ -3,7 +3,8 @@
 public class ScoreEntry
 {
 	public int Id { get; set; }
-	public string SongName { get; set; }
+	public int ChartId { get; set; }
+    public string SongName { get; set; }
 	public int Score { get; set; }
 	public int MaxCombo { get; set; }
 	public double Accuracy { get; set; }
